@@ -1,0 +1,19 @@
+{
+  "navigation": {
+    "home": "Početna",
+    "menu": "Meni",
+    "booking": "Rezervacija",
+    "about": "O nama"
+  },
+  "common": {
+    "language": "Jezik",
+    "openMenu": "Otvorite meni",
+    "closeMenu": "Zatvorite meni"
+  },
+  "home": {
+    "hero": {
+      "title": "Kulinarski Putovanje",
+      "subtitle": "Doživite umetnost fine kuhinje"
+    }
+  }
+}

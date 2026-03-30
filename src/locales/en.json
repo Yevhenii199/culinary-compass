@@ -1,0 +1,19 @@
+{
+  "navigation": {
+    "home": "Home",
+    "menu": "Menu",
+    "booking": "Booking",
+    "about": "About"
+  },
+  "common": {
+    "language": "Language",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "home": {
+    "hero": {
+      "title": "A Culinary Journey",
+      "subtitle": "Experience the art of fine dining"
+    }
+  }
+}
