@@ -12,8 +12,27 @@
   },
   "home": {
     "hero": {
-      "title": "A Culinary Journey",
-      "subtitle": "Experience the art of fine dining"
+      "title": "Taste the Tradition",
+      "subtitle": "Authentic Serbian & Russian cuisine crafted with passion, served with elegance in the heart of Belgrade.",
+      "cta": "Book a Table"
+    },
+    "featured": {
+      "title": "Featured Dishes",
+      "subtitle": "Our chef's selection of signature creations"
+    },
+    "dishes": {
+      "dish1": { "name": "Ćevapčići Royale", "description": "Hand-formed beef and lamb rolls with smoked paprika aioli and charred onion relish." },
+      "dish2": { "name": "Danube Salmon", "description": "Pan-seared fillet with golden beurre blanc, dill, and seasonal vegetables." },
+      "dish3": { "name": "Chocolate Fondant", "description": "Rich dark chocolate cake with molten center, fresh berries, and vanilla gelato." },
+      "dish4": { "name": "Belgrade Goulash", "description": "Slow-braised beef in a rich paprika broth with root vegetables and fresh herbs." }
+    },
+    "testimonials": {
+      "title": "What Our Guests Say",
+      "items": [
+        { "quote": "An unforgettable evening. The flavors transported me straight to my grandmother's kitchen, yet with a modern twist I never expected.", "author": "Marina S.", "role": "Food Critic" },
+        { "quote": "GASTRONOM is simply the finest dining experience in Belgrade. Every dish is a masterpiece.", "author": "Aleksei P.", "role": "Regular Guest" },
+        { "quote": "The ambiance, the service, the food — everything was impeccable. We will return again and again.", "author": "Sofia D.", "role": "Travel Blogger" }
+      ]
     }
   },
   "footer": {
