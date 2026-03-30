@@ -15,5 +15,21 @@
       "title": "Kulinarski Putovanje",
       "subtitle": "Doživite umetnost fine kuhinje"
     }
+  },
+  "footer": {
+    "about": "Rafinirano iskustvo obedovanja koje spaja tradiciju sa modernom kulinarskom umetnošću. Svako jelo priča priču o strasti i zanatu.",
+    "address": "Adresa",
+    "addressValue": "Knez Mihailova 12, Beograd, Srbija",
+    "phone": "Telefon",
+    "phoneValue": "+381 11 123 4567",
+    "email": "Email",
+    "emailValue": "info@gastronom.rs",
+    "contactUs": "Kontaktirajte nas",
+    "followUs": "Pratite nas",
+    "findUs": "Pronađite nas",
+    "legal": "Pravne informacije",
+    "privacyPolicy": "Politika privatnosti",
+    "termsOfService": "Uslovi korišćenja",
+    "rights": "Sva prava zadržana."
   }
 }

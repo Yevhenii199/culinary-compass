@@ -15,5 +15,21 @@
       "title": "A Culinary Journey",
       "subtitle": "Experience the art of fine dining"
     }
+  },
+  "footer": {
+    "about": "A refined dining experience blending tradition with modern culinary artistry. Every dish tells a story of passion and craft.",
+    "address": "Address",
+    "addressValue": "12 Knez Mihailova, Belgrade, Serbia",
+    "phone": "Phone",
+    "phoneValue": "+381 11 123 4567",
+    "email": "Email",
+    "emailValue": "info@gastronom.rs",
+    "contactUs": "Contact Us",
+    "followUs": "Follow Us",
+    "findUs": "Find Us",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "rights": "All rights reserved."
   }
 }
