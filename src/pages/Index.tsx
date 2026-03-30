@@ -1,17 +1,133 @@
+import { Link, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { Quote } from "lucide-react";
+import heroImage from "@/assets/hero-food.jpg";
+import dish1 from "@/assets/dish-1.jpg";
+import dish2 from "@/assets/dish-2.jpg";
+import dish3 from "@/assets/dish-3.jpg";
+import dish4 from "@/assets/dish-4.jpg";
+
+const dishImages = [dish1, dish2, dish3, dish4];
+const dishKeys = ["dish1", "dish2", "dish3", "dish4"];
 
 export default function Index() {
   const { t } = useTranslation();
+  const { lang } = useParams<{ lang?: string }>();
+  const currentLang = lang || "en";
+
+  const testimonials = t("home.testimonials.items", { returnObjects: true }) as Array<{
+    quote: string;
+    author: string;
+    role: string;
+  }>;
 
   return (
-    <div className="flex min-h-[80vh] flex-col items-center justify-center text-center">
-      <h1 className="font-display text-5xl md:text-7xl font-bold text-secondary tracking-wide">
-        {t("home.hero.title")}
-      </h1>
-      <p className="mt-4 font-body text-lg text-muted-foreground max-w-md">
-        {t("home.hero.subtitle")}
-      </p>
-      <div className="mt-8 h-px w-24 bg-primary" />
-    </div>
+    <>
+      {/* Hero Section */}
+      <section className="relative h-[85vh] min-h-[600px] flex items-center justify-center overflow-hidden">
+        <img
+          src={heroImage}
+          alt="Fine dining at GASTRONOM"
+          className="absolute inset-0 h-full w-full object-cover"
+          width={1920}
+          height={1080}
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-deep-darker/90 via-deep-darker/50 to-deep-darker/30" />
+        <div className="relative z-10 flex flex-col items-center text-center px-6 max-w-3xl">
+          <div className="mb-6 h-px w-16 bg-primary" />
+          <h1 className="font-display text-4xl sm:text-5xl md:text-7xl font-bold tracking-wide text-cream">
+            {t("home.hero.title")}
+          </h1>
+          <p className="mt-5 font-body text-base sm:text-lg text-cream/70 max-w-xl leading-relaxed">
+            {t("home.hero.subtitle")}
+          </p>
+          <Link
+            to={`/${currentLang}/booking`}
+            className="mt-10 inline-block rounded-sm bg-primary px-8 py-3.5 font-body text-sm uppercase tracking-[0.2em] text-primary-foreground transition-colors hover:bg-gold-light"
+          >
+            {t("home.hero.cta")}
+          </Link>
+          <div className="mt-6 h-px w-16 bg-primary" />
+        </div>
+      </section>
+
+      {/* Featured Dishes */}
+      <section className="py-20 bg-background">
+        <div className="container">
+          <div className="text-center mb-14">
+            <div className="mx-auto mb-4 h-px w-12 bg-primary" />
+            <h2 className="font-display text-3xl md:text-4xl font-semibold text-foreground">
+              {t("home.featured.title")}
+            </h2>
+            <p className="mt-3 font-body text-muted-foreground">
+              {t("home.featured.subtitle")}
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {dishKeys.map((key, i) => (
+              <div
+                key={key}
+                className="group overflow-hidden rounded-lg bg-card border border-border transition-shadow hover:shadow-lg"
+              >
+                <div className="aspect-square overflow-hidden">
+                  <img
+                    src={dishImages[i]}
+                    alt={t(`home.dishes.${key}.name`)}
+                    loading="lazy"
+                    width={640}
+                    height={640}
+                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+                <div className="p-5">
+                  <h3 className="font-display text-lg font-semibold text-card-foreground">
+                    {t(`home.dishes.${key}.name`)}
+                  </h3>
+                  <p className="mt-2 font-body text-sm text-muted-foreground leading-relaxed">
+                    {t(`home.dishes.${key}.description`)}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials */}
+      <section className="py-20 bg-secondary">
+        <div className="container">
+          <div className="text-center mb-14">
+            <div className="mx-auto mb-4 h-px w-12 bg-primary" />
+            <h2 className="font-display text-3xl md:text-4xl font-semibold text-secondary-foreground">
+              {t("home.testimonials.title")}
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {Array.isArray(testimonials) &&
+              testimonials.map((item, i) => (
+                <blockquote
+                  key={i}
+                  className="flex flex-col rounded-lg border border-border/20 bg-deep-darker/30 p-8"
+                >
+                  <Quote className="mb-4 h-6 w-6 text-primary" />
+                  <p className="flex-1 font-body text-sm italic leading-relaxed text-secondary-foreground/80">
+                    "{item.quote}"
+                  </p>
+                  <footer className="mt-6 border-t border-border/20 pt-4">
+                    <cite className="not-italic">
+                      <span className="block font-display text-sm font-semibold text-primary">
+                        {item.author}
+                      </span>
+                      <span className="block font-body text-xs text-secondary-foreground/50">
+                        {item.role}
+                      </span>
+                    </cite>
+                  </footer>
+                </blockquote>
+              ))}
+          </div>
+        </div>
+      </section>
+    </>
   );
 }

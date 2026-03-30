@@ -12,8 +12,27 @@
   },
   "home": {
     "hero": {
-      "title": "Kulinarski Putovanje",
-      "subtitle": "Doživite umetnost fine kuhinje"
+      "title": "Okus Tradicije",
+      "subtitle": "Autentična srpska i ruska kuhinja pripremljena sa strašću, servirana sa elegancijom u srcu Beograda.",
+      "cta": "Rezervišite Sto"
+    },
+    "featured": {
+      "title": "Izdvojena Jela",
+      "subtitle": "Izbor šefa kuhinje od prepoznatljivih kreacija"
+    },
+    "dishes": {
+      "dish1": { "name": "Ćevapčići Royale", "description": "Ručno oblikovani roštilj od govedine i jagnjetine sa dimljenim paprika ajolijem." },
+      "dish2": { "name": "Dunavski Losos", "description": "Pečeni file sa zlatnim beurre blanc sosom, mirođijom i sezonskim povrćem." },
+      "dish3": { "name": "Čokoladni Fondan", "description": "Bogata tamna čokoladna torta sa rastopljenim centrom, svežim bobičastim voćem i vanila gelatom." },
+      "dish4": { "name": "Beogradski Gulaš", "description": "Polako dinstana govedina u bogatom paprika sosu sa korenastim povrćem i svežim biljem." }
+    },
+    "testimonials": {
+      "title": "Šta Kažu Naši Gosti",
+      "items": [
+        { "quote": "Nezaboravno veče. Ukusi su me preneli pravo u bakin kuhinju, ali sa modernim preokretom.", "author": "Marina S.", "role": "Kritičar hrane" },
+        { "quote": "GASTRONOM je jednostavno najfinije iskustvo obedovanja u Beogradu. Svako jelo je remek-delo.", "author": "Aleksej P.", "role": "Redovni gost" },
+        { "quote": "Ambijent, usluga, hrana — sve je bilo besprekorno. Vraćaćemo se iznova.", "author": "Sofija D.", "role": "Travel bloger" }
+      ]
     }
   },
   "footer": {
