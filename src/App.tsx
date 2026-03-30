@@ -1,12 +1,36 @@
+import { useEffect } from "react";
+import { BrowserRouter, Route, Routes, Navigate, useParams } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import Index from "./pages/Index.tsx";
-import NotFound from "./pages/NotFound.tsx";
+import { supportedLanguages, type SupportedLanguage } from "@/i18n";
+import MainLayout from "@/layouts/MainLayout";
+import Index from "@/pages/Index";
+import MenuPage from "@/pages/MenuPage";
+import BookingPage from "@/pages/BookingPage";
+import AboutPage from "@/pages/AboutPage";
+import NotFound from "@/pages/NotFound";
 
 const queryClient = new QueryClient();
+
+function LangGuard({ children }: { children: React.ReactNode }) {
+  const { lang } = useParams<{ lang: string }>();
+  const { i18n } = useTranslation();
+
+  useEffect(() => {
+    if (lang && supportedLanguages.includes(lang as SupportedLanguage)) {
+      i18n.changeLanguage(lang);
+    }
+  }, [lang, i18n]);
+
+  if (!lang || !supportedLanguages.includes(lang as SupportedLanguage)) {
+    return <Navigate to="/en" replace />;
+  }
+
+  return <>{children}</>;
+}
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
@@ -15,8 +39,20 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          <Route path="/" element={<Navigate to="/en" replace />} />
+          <Route
+            path="/:lang/*"
+            element={
+              <LangGuard>
+                <MainLayout />
+              </LangGuard>
+            }
+          >
+            <Route index element={<Index />} />
+            <Route path="menu" element={<MenuPage />} />
+            <Route path="booking" element={<BookingPage />} />
+            <Route path="about" element={<AboutPage />} />
+          </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
