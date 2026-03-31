@@ -35,6 +35,53 @@
       ]
     }
   },
+  "booking": {
+    "title": "Reserve Your Table",
+    "subtitle": "Join us for an unforgettable dining experience",
+    "form": {
+      "date": "Date",
+      "time": "Time",
+      "partySize": "Party Size",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "specialRequests": "Special Requests (Optional)",
+      "submit": "Confirm Reservation",
+      "submitting": "Confirming..."
+    },
+    "validation": {
+      "dateRequired": "Date is required",
+      "dateInPast": "Please select a future date",
+      "timeRequired": "Time is required",
+      "partySizeRequired": "Party size is required",
+      "partySizeMin": "Party size must be at least 1",
+      "partySizeMax": "Party size cannot exceed 12",
+      "firstNameRequired": "First name is required",
+      "lastNameRequired": "Last name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "phoneRequired": "Phone number is required",
+      "phoneInvalid": "Please enter a valid phone number"
+    },
+    "confirmation": {
+      "title": "Reservation Confirmed!",
+      "message": "Thank you for your reservation. We look forward to welcoming you on {{date}} at {{time}}.",
+      "bookingDetails": "Booking Details",
+      "date": "Date",
+      "time": "Time",
+      "party": "Party Size",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "close": "Close"
+    },
+    "ourStory": {
+      "title": "Our Story",
+      "description": "GASTRONOM was born from a passion to celebrate the rich culinary traditions of Serbia and Russia. Our journey began with a simple vision: to create a space where authentic flavors meet contemporary elegance, where every meal tells a story of heritage and craft.",
+      "learnMore": "Learn More About Us"
+    }
+  },
   "footer": {
     "about": "A refined dining experience blending tradition with modern culinary artistry. Every dish tells a story of passion and craft.",
     "address": "Address",

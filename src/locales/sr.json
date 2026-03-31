@@ -35,6 +35,53 @@
       ]
     }
   },
+  "booking": {
+    "title": "Rezervišite Svoj Sto",
+    "subtitle": "Pridružite se nama za nezaboravno iskustvo obedovanja",
+    "form": {
+      "date": "Datum",
+      "time": "Vreme",
+      "partySize": "Broj Osoba",
+      "firstName": "Ime",
+      "lastName": "Prezime",
+      "email": "Email Adresa",
+      "phone": "Broj Telefona",
+      "specialRequests": "Posebni Zahtevi (Opciono)",
+      "submit": "Potvrdite Rezervaciju",
+      "submitting": "Potvrđujem..."
+    },
+    "validation": {
+      "dateRequired": "Datum je obavezan",
+      "dateInPast": "Molimo izaberite budući datum",
+      "timeRequired": "Vreme je obavezno",
+      "partySizeRequired": "Broj osoba je obavezan",
+      "partySizeMin": "Broj osoba mora biti najmanje 1",
+      "partySizeMax": "Broj osoba ne može biti više od 12",
+      "firstNameRequired": "Ime je obavezno",
+      "lastNameRequired": "Prezime je obavezno",
+      "emailRequired": "Email je obavezan",
+      "emailInvalid": "Molimo unesite validnu email adresu",
+      "phoneRequired": "Broj telefona je obavezan",
+      "phoneInvalid": "Molimo unesite validan broj telefona"
+    },
+    "confirmation": {
+      "title": "Rezervacija Potvrđena!",
+      "message": "Hvala vam na rezervaciji. Čekamo vas {{date}} u {{time}}.",
+      "bookingDetails": "Detalji Rezervacije",
+      "date": "Datum",
+      "time": "Vreme",
+      "party": "Broj Osoba",
+      "name": "Ime",
+      "email": "Email",
+      "phone": "Telefon",
+      "close": "Zatvori"
+    },
+    "ourStory": {
+      "title": "Naša Priča",
+      "description": "GASTRONOM je rođen iz strasti da proslavi bogate kulinarskе tradicije Srbije i Rusije. Naš put je počeo sa jednostavnom vizijom: stvoriti prostor gde se autentični ukusi sreću sa savremenom elegancijom, gde svako jelo pripoveda priču nasledja i zanata.",
+      "learnMore": "Saznajte Više O Nama"
+    }
+  },
   "footer": {
     "about": "Rafinirano iskustvo obedovanja koje spaja tradiciju sa modernom kulinarskom umetnošću. Svako jelo priča priču o strasti i zanatu.",
     "address": "Adresa",
