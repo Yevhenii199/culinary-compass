@@ -1,4 +1,6 @@
-export const menuData: MenuCategory[] = [
+export 
+const menuData: MenuCategory[] = [
+  {
     id: "breakfast",
     name: {
       en: "Breakfast",
@@ -1699,5 +1701,4 @@ export const menuData: MenuCategory[] = [
     ]
   },
   
-
 ];
