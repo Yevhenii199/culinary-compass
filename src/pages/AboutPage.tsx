@@ -33,8 +33,7 @@ export default function AboutPage() {
                 {t("about.story.title")}
               </h2>
 
-              {Array.isArray(t("about.story.paragraphs")) &&
-                t("about.story.paragraphs").map((paragraph: string, index: number) => (
+              {(t("about.story.paragraphs", { returnObjects: true }) as string[]).map((paragraph: string, index: number) => (
                   <p
                     key={index}
                     className="font-body text-base text-muted-foreground leading-relaxed"
