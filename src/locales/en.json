@@ -82,6 +82,39 @@
       "learnMore": "Learn More About Us"
     }
   },
+  "about": {
+    "title": "About GASTRONOM",
+    "subtitle": "Where tradition meets elegance",
+    "story": {
+      "title": "Our Story",
+      "paragraphs": [
+        "GASTRONOM was founded in 2015 with a singular vision: to celebrate the rich and diverse culinary traditions of Serbia and Russia in one extraordinary space. What began as a small dream by owner Mirko Nikolić and chef Aleksandar Petrović has evolved into one of Belgrade's most celebrated fine dining establishments.",
+        "Our philosophy is rooted in authenticity. We believe that the best dishes are those that honor their heritage while embracing innovation. Every ingredient is carefully sourced, every technique is meticulously refined, and every plate that leaves our kitchen tells a story of dedication and passion.",
+        "Our chef, Aleksandar Petrović, trained in Moscow, Vienna, and Paris, brings a unique perspective to traditional Balkan and Russian cuisine. With over 20 years of culinary experience, he has developed signature dishes that have become legendary among food enthusiasts. His commitment to excellence and his respect for traditional cooking methods ensure that every meal at GASTRONOM is an unforgettable journey.",
+        "Beyond exceptional food, GASTRONOM is a sanctuary of refined elegance. Our intimate dining room, with its warm lighting and carefully curated décor, creates an atmosphere that celebrates both the food and the company. Whether you're joining us for a special occasion or a quiet evening, our team is dedicated to making your experience truly memorable.",
+        "Today, GASTRONOM stands as a testament to what happens when passion, tradition, and innovation converge. We are honored to be your destination for authentic Serbian and Russian cuisine in the heart of Belgrade."
+      ]
+    },
+    "contact": {
+      "title": "Visit Us",
+      "address": "Address",
+      "addressValue": "12 Knez Mihailova Street, Belgrade, Serbia",
+      "phone": "Phone",
+      "phoneValue": "+381 11 123 4567",
+      "email": "Email",
+      "emailValue": "info@gastronom.rs"
+    },
+    "hours": {
+      "title": "Opening Hours",
+      "weekday": "Monday - Friday",
+      "weekdayTime": "11:00 AM - 11:00 PM",
+      "saturday": "Saturday",
+      "saturdayTime": "12:00 PM - 12:00 AM",
+      "sunday": "Sunday",
+      "sundayTime": "12:00 PM - 10:00 PM",
+      "closed": "Closed on major holidays"
+    }
+  },
   "footer": {
     "about": "A refined dining experience blending tradition with modern culinary artistry. Every dish tells a story of passion and craft.",
     "address": "Address",

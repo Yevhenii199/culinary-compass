@@ -82,6 +82,39 @@
       "learnMore": "Saznajte Više O Nama"
     }
   },
+  "about": {
+    "title": "O GASTRONOM-u",
+    "subtitle": "Gde tradicija susreće eleganciju",
+    "story": {
+      "title": "Naša Priča",
+      "paragraphs": [
+        "GASTRONOM je osnovan 2015. godine sa jasnom vizijom: da slavi bogate i raznovrsne kulinarskе tradicije Srbije i Rusije na jednom izvanrednom mestu. Ono što je počelo kao mali san vlasnika Mirka Nikolića i šefa kuhinje Aleksandra Petrovića razvilo se u jedan od najcenjenijih finih restorana u Beogradu.",
+        "Naša filozofija je utemeljena na autentičnosti. Verujemo da su najbolja jela ona koja čuvaju svoje nasledje dok prihvataju inovacije. Svaki sastojak je pažljivo odabran, svaka tehnika je precizno usavršena, a svaki tanjir koji izlazi iz naše kuhinje priča priču o posvećenosti i strasti.",
+        "Naš šef, Aleksandar Petrović, obrazovan u Moskvi, Beču i Parizu, donosi jedinstvenu perspektivu na tradicionalnu balkansku i rusku kuhinju. Sa preko 20 godina iskustva u kulinarstvu, razvio je prepoznatljiva jela koja su postala legendarni među ljubiteljima hrane. Njegova posvećenost savršenstvu i poštovanje tradicionalnih načina kuhinjskog rada osiguravaju da je svaki obrok u GASTRONOM-u nezaboravno putovanje.",
+        "Pored izuzetne hrane, GASTRONOM je svetilište refinirane elegancije. Naša intimna blagovaonica, sa toplim svetlom i pažljivo odabranom dekoracijom, kreira atmosferu koja slavi i hranu i društvo. Bilo da ste s nama za posebnu priliku ili tih veče, naš tim je posvećen tome da vaše iskustvo bude zaista nezaboravno.",
+        "Danas, GASTRONOM stoji kao svjedanstvo onoga što se dešava kada se strast, tradicija i inovacija sjedine. Čast nam je biti vaša odrednica za autentičnu srpsku i rusku kuhinju u srcu Beograda."
+      ]
+    },
+    "contact": {
+      "title": "Posetite Nas",
+      "address": "Adresa",
+      "addressValue": "Knez Mihailova 12, Beograd, Srbija",
+      "phone": "Telefon",
+      "phoneValue": "+381 11 123 4567",
+      "email": "Email",
+      "emailValue": "info@gastronom.rs"
+    },
+    "hours": {
+      "title": "Vremе Otvaranja",
+      "weekday": "Ponedeljak - Petak",
+      "weekdayTime": "11:00 - 23:00",
+      "saturday": "Subota",
+      "saturdayTime": "12:00 - 00:00",
+      "sunday": "Nedelja",
+      "sundayTime": "12:00 - 22:00",
+      "closed": "Zatvoreno na velike praznike"
+    }
+  },
   "footer": {
     "about": "Rafinirano iskustvo obedovanja koje spaja tradiciju sa modernom kulinarskom umetnošću. Svako jelo priča priču o strasti i zanatu.",
     "address": "Adresa",
