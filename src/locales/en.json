@@ -19,6 +19,10 @@
       "title": "Featured Dishes",
       "subtitle": "Our chef's selection of signature creations"
     },
+    "gallery": {
+      "title": "Gallery",
+      "subtitle": "A glimpse into our kitchen, our table, and our craft"
+    },
     "dishes": {
       "dish1": {
         "name": "Royale Ćevapcici",
