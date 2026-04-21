@@ -1,11 +1,24 @@
 import { Link, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Quote } from "lucide-react";
-import heroImage from "@/assets/hero-food.jpg";
+import HeroSlider, { type HeroSlide } from "@/components/HeroSlider";
+import hero1 from "@/assets/hero-1.jpeg";
+import hero2 from "@/assets/hero-2.jpeg";
+import hero3 from "@/assets/hero-3.jpeg";
+import hero4 from "@/assets/hero-4.jpeg";
+import hero5 from "@/assets/hero-5.jpeg";
 import dish1 from "@/assets/dish-1.jpg";
 import dish2 from "@/assets/dish-2.jpg";
 import dish3 from "@/assets/dish-3.jpg";
 import dish4 from "@/assets/dish-4.jpg";
+
+const heroSlides: HeroSlide[] = [
+  { src: hero1, alt: "Grilled octopus with black risotto" },
+  { src: hero2, alt: "Wine toast at GASTRONOM" },
+  { src: hero3, alt: "Signature seafood plating" },
+  { src: hero4, alt: "Sliced steak with red wine" },
+  { src: hero5, alt: "Octopus tentacle close-up with olives" },
+];
 
 const dishImages = [dish1, dish2, dish3, dish4];
 const dishKeys = ["dish1", "dish2", "dish3", "dish4"];
