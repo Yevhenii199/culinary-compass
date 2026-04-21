@@ -2,7 +2,6 @@
   "navigation": {
     "home": "Home",
     "menu": "Menu",
-    "booking": "Booking",
     "about": "About"
   },
   "common": {
@@ -14,7 +13,7 @@
     "hero": {
       "title": "Restaurant TRPEZA",
       "subtitle": "Traditional Balkan cuisine, the freshest seafood, and a view that will capture your heart",
-      "cta": "Book a Table"
+      "cta": "View Our Menu"
     },
     "featured": {
       "title": "Featured Dishes",
@@ -57,53 +56,6 @@
           "role": "Travel Blogger"
         }
       ]
-    }
-  },
-  "booking": {
-    "title": "Reserve Your Table",
-    "subtitle": "Join us for an unforgettable dining experience",
-    "form": {
-      "date": "Date",
-      "time": "Time",
-      "partySize": "Party Size",
-      "firstName": "First Name",
-      "lastName": "Last Name",
-      "email": "Email Address",
-      "phone": "Phone Number",
-      "specialRequests": "Special Requests (Optional)",
-      "submit": "Confirm Reservation",
-      "submitting": "Confirming..."
-    },
-    "validation": {
-      "dateRequired": "Date is required",
-      "dateInPast": "Please select a future date",
-      "timeRequired": "Time is required",
-      "partySizeRequired": "Party size is required",
-      "partySizeMin": "Party size must be at least 1",
-      "partySizeMax": "Party size cannot exceed 12",
-      "firstNameRequired": "First name is required",
-      "lastNameRequired": "Last name is required",
-      "emailRequired": "Email is required",
-      "emailInvalid": "Please enter a valid email address",
-      "phoneRequired": "Phone number is required",
-      "phoneInvalid": "Please enter a valid phone number"
-    },
-    "confirmation": {
-      "title": "Reservation Confirmed!",
-      "message": "Thank you for your reservation. We look forward to welcoming you on {{date}} at {{time}}.",
-      "bookingDetails": "Booking Details",
-      "date": "Date",
-      "time": "Time",
-      "party": "Party Size",
-      "name": "Name",
-      "email": "Email",
-      "phone": "Phone",
-      "close": "Close"
-    },
-    "ourStory": {
-      "title": "Our Story",
-      "description": "We have combined centuries-old Balkan culinary traditions with modern European service. Our mission is to give you a true taste of Montenegro.",
-      "learnMore": "Learn More About Us"
     }
   },
   "about": {

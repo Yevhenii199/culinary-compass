@@ -2,7 +2,6 @@
   "navigation": {
     "home": "Početna",
     "menu": "Meni",
-    "booking": "Rezervacija",
     "about": "O nama"
   },
   "common": {
@@ -14,7 +13,7 @@
     "hero": {
       "title": "Restoran TRPEZA",
       "subtitle": "Tradicionalna balkanska kuhinja, свежи morski plodovi i pogled koji ostaje u srcu zauvek",
-      "cta": "Rezervišite Sto"
+      "cta": "Pogledajte Meni"
     },
     "featured": {
       "title": "Izdvojena Jela",
@@ -57,53 +56,6 @@
           "role": "Travel bloger"
         }
       ]
-    }
-  },
-  "booking": {
-    "title": "Rezervišite Svoj Sto",
-    "subtitle": "Pridružite se nama za nezaboravno iskustvo obedovanja",
-    "form": {
-      "date": "Datum",
-      "time": "Vreme",
-      "partySize": "Broj Osoba",
-      "firstName": "Ime",
-      "lastName": "Prezime",
-      "email": "Email Adresa",
-      "phone": "Broj Telefona",
-      "specialRequests": "Posebni Zahtevi (Opciono)",
-      "submit": "Potvrdite Rezervaciju",
-      "submitting": "Potvrđujem..."
-    },
-    "validation": {
-      "dateRequired": "Datum je obavezan",
-      "dateInPast": "Molimo izaberite budući datum",
-      "timeRequired": "Vreme je obavezno",
-      "partySizeRequired": "Broj osoba je obavezan",
-      "partySizeMin": "Broj osoba mora biti najmanje 1",
-      "partySizeMax": "Broj osoba ne može biti više od 12",
-      "firstNameRequired": "Ime je obavezno",
-      "lastNameRequired": "Prezime je obavezno",
-      "emailRequired": "Email je obavezan",
-      "emailInvalid": "Molimo unesite validnu email adresu",
-      "phoneRequired": "Broj telefona je obavezan",
-      "phoneInvalid": "Molimo unesite validan broj telefona"
-    },
-    "confirmation": {
-      "title": "Rezervacija Potvrđena!",
-      "message": "Hvala vam na rezervaciji. Čekamo vas {{date}} u {{time}}.",
-      "bookingDetails": "Detalji Rezervacije",
-      "date": "Datum",
-      "time": "Vreme",
-      "party": "Broj Osoba",
-      "name": "Ime",
-      "email": "Email",
-      "phone": "Telefon",
-      "close": "Zatvori"
-    },
-    "ourStory": {
-      "title": "Naša Priča",
-      "description": "Spojili smo vekovne tradicije balkanske kuhinje sa modernim evropskim servisom. Naša misija je da vam dočaramo pravi ukus Crne Gore.",
-      "learnMore": "Saznajte Više O Nama"
     }
   },
   "about": {
