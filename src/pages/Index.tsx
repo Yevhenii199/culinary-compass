@@ -1,11 +1,24 @@
 import { Link, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Quote } from "lucide-react";
-import heroImage from "@/assets/hero-food.jpg";
+import HeroSlider, { type HeroSlide } from "@/components/HeroSlider";
+import hero1 from "@/assets/hero-1.jpeg";
+import hero2 from "@/assets/hero-2.jpeg";
+import hero3 from "@/assets/hero-3.jpeg";
+import hero4 from "@/assets/hero-4.jpeg";
+import hero5 from "@/assets/hero-5.jpeg";
 import dish1 from "@/assets/dish-1.jpg";
 import dish2 from "@/assets/dish-2.jpg";
 import dish3 from "@/assets/dish-3.jpg";
 import dish4 from "@/assets/dish-4.jpg";
+
+const heroSlides: HeroSlide[] = [
+  { src: hero1, alt: "Grilled octopus with black risotto" },
+  { src: hero2, alt: "Wine toast at GASTRONOM" },
+  { src: hero3, alt: "Signature seafood plating" },
+  { src: hero4, alt: "Sliced steak with red wine" },
+  { src: hero5, alt: "Octopus tentacle close-up with olives" },
+];
 
 const dishImages = [dish1, dish2, dish3, dish4];
 const dishKeys = ["dish1", "dish2", "dish3", "dish4"];
@@ -23,17 +36,9 @@ export default function Index() {
 
   return (
     <>
-      {/* Hero Section */}
-      <section className="relative h-[85vh] min-h-[600px] flex items-center justify-center overflow-hidden">
-        <img
-          src={heroImage}
-          alt="Fine dining at GASTRONOM"
-          className="absolute inset-0 h-full w-full object-cover"
-          width={1920}
-          height={1080}
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-deep-darker/90 via-deep-darker/50 to-deep-darker/30" />
-        <div className="relative z-10 flex flex-col items-center text-center px-6 max-w-3xl">
+      {/* Hero Slider */}
+      <HeroSlider slides={heroSlides}>
+        <div className="flex flex-col items-center text-center max-w-3xl">
           <div className="mb-6 h-px w-16 bg-primary" />
           <h1 className="font-display text-4xl sm:text-5xl md:text-7xl font-bold tracking-wide text-cream">
             {t("home.hero.title")}
@@ -43,13 +48,13 @@ export default function Index() {
           </p>
           <Link
             to={`/${currentLang}/menu`}
-            className="mt-10 inline-block rounded-sm bg-primary px-8 py-3.5 font-body text-sm uppercase tracking-[0.2em] text-primary-foreground transition-colors hover:bg-gold-light"
+            className="mt-10 inline-block rounded-sm bg-primary px-8 py-3.5 font-body text-sm uppercase tracking-[0.2em] text-primary-foreground transition-colors hover:bg-gold-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-deep-darker"
           >
             {t("home.hero.cta")}
           </Link>
           <div className="mt-6 h-px w-16 bg-primary" />
         </div>
-      </section>
+      </HeroSlider>
 
       {/* Featured Dishes */}
       <section className="py-20 bg-background">
