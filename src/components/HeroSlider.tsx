@@ -137,51 +137,31 @@ export default function HeroSlider({
         </div>
       )}
 
-      {/* Arrows */}
+      {/* Dots */}
       {total > 1 && (
-        <>
-          <button
-            type="button"
-            onClick={prev}
-            aria-label="Previous slide"
-            className="group absolute left-3 top-1/2 z-20 -translate-y-1/2 rounded-full bg-deep-darker/40 p-2 text-cream backdrop-blur-sm transition-colors hover:bg-deep-darker/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary md:left-6 md:p-3"
-          >
-            <ChevronLeft className="h-5 w-5 md:h-6 md:w-6" />
-          </button>
-          <button
-            type="button"
-            onClick={next}
-            aria-label="Next slide"
-            className="group absolute right-3 top-1/2 z-20 -translate-y-1/2 rounded-full bg-deep-darker/40 p-2 text-cream backdrop-blur-sm transition-colors hover:bg-deep-darker/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary md:right-6 md:p-3"
-          >
-            <ChevronRight className="h-5 w-5 md:h-6 md:w-6" />
-          </button>
-
-          {/* Dots */}
-          <div
-            role="tablist"
-            aria-label="Select slide"
-            className="absolute bottom-6 left-1/2 z-20 flex -translate-x-1/2 items-center gap-2"
-          >
-            {slides.map((_, i) => {
-              const isActive = i === current;
-              return (
-                <button
-                  key={i}
-                  type="button"
-                  role="tab"
-                  aria-selected={isActive}
-                  aria-label={`Go to slide ${i + 1}`}
-                  onClick={() => goTo(i)}
-                  className={cn(
-                    "h-2 rounded-full transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-deep-darker",
-                    isActive ? "w-8 bg-primary" : "w-2 bg-cream/50 hover:bg-cream/80",
-                  )}
-                />
-              );
-            })}
-          </div>
-        </>
+        <div
+          role="tablist"
+          aria-label="Select slide"
+          className="absolute bottom-6 left-1/2 z-20 flex -translate-x-1/2 items-center gap-2"
+        >
+          {slides.map((_, i) => {
+            const isActive = i === current;
+            return (
+              <button
+                key={i}
+                type="button"
+                role="tab"
+                aria-selected={isActive}
+                aria-label={`Go to slide ${i + 1}`}
+                onClick={() => goTo(i)}
+                className={cn(
+                  "h-2 rounded-full transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-deep-darker",
+                  isActive ? "w-8 bg-primary" : "w-2 bg-cream/50 hover:bg-cream/80",
+                )}
+              />
+            );
+          })}
+        </div>
       )}
     </section>
   );
