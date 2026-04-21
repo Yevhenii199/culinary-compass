@@ -19,13 +19,3 @@ interface MenuCategory {
   items: MenuItem[];
 }
 
-interface BookingRequest {
-  id?: string;
-  name: string;
-  email: string;
-  phone: string;
-  date: string;
-  time: string;
-  guests: number;
-  notes?: string;
-}

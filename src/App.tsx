@@ -9,7 +9,6 @@ import { supportedLanguages, type SupportedLanguage } from "@/i18n";
 import MainLayout from "@/layouts/MainLayout";
 import Index from "@/pages/Index";
 import MenuPage from "@/pages/MenuPage";
-import BookingPage from "@/pages/BookingPage";
 import AboutPage from "@/pages/AboutPage";
 import NotFound from "@/pages/NotFound";
 
@@ -50,7 +49,6 @@ const App = () => (
           >
             <Route index element={<Index />} />
             <Route path="menu" element={<MenuPage />} />
-            <Route path="booking" element={<BookingPage />} />
             <Route path="about" element={<AboutPage />} />
           </Route>
           <Route path="*" element={<NotFound />} />

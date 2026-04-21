@@ -42,7 +42,7 @@ export default function Index() {
             {t("home.hero.subtitle")}
           </p>
           <Link
-            to={`/${currentLang}/booking`}
+            to={`/${currentLang}/menu`}
             className="mt-10 inline-block rounded-sm bg-primary px-8 py-3.5 font-body text-sm uppercase tracking-[0.2em] text-primary-foreground transition-colors hover:bg-gold-light"
           >
             {t("home.hero.cta")}

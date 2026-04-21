@@ -10,11 +10,10 @@ const langLabels: Record<SupportedLanguage, string> = {
   ru: "RU",
 };
 
-const navKeys = ["home", "menu", "booking", "about"] as const;
+const navKeys = ["home", "menu", "about"] as const;
 const navPaths: Record<string, string> = {
   home: "",
   menu: "menu",
-  booking: "booking",
   about: "about",
 };
 
