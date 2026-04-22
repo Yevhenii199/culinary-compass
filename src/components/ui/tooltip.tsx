@@ -3,7 +3,14 @@ import * as TooltipPrimitive from "@radix-ui/react-tooltip";
 
 import { cn } from "@/lib/utils";
 
-const TooltipProvider = TooltipPrimitive.Provider;
+type TooltipProviderProps = {
+  children: React.ReactNode;
+  delayDuration?: number;
+  skipDelayDuration?: number;
+  disableHoverableContent?: boolean;
+};
+
+const TooltipProvider = ({ children }: TooltipProviderProps) => <>{children}</>;
 
 const Tooltip = TooltipPrimitive.Root;
 
