@@ -10,6 +10,11 @@ import gallery7 from "@/assets/gallery-7.jpeg";
 import gallery8 from "@/assets/gallery-8.jpeg";
 import gallery9 from "@/assets/gallery-9.jpeg";
 import gallery10 from "@/assets/gallery-10.jpeg";
+import gallery11 from "@/assets/gallery-11.jpeg";
+import gallery12 from "@/assets/gallery-12.jpeg";
+import gallery13 from "@/assets/gallery-13.jpeg";
+import gallery14 from "@/assets/gallery-14.jpeg";
+import gallery15 from "@/assets/gallery-15.jpeg";
 
 const galleryImages: GalleryImage[] = [
   { src: gallery1, alt: "Sliced tuna steak with fresh lemon" },
@@ -22,6 +27,11 @@ const galleryImages: GalleryImage[] = [
   { src: gallery8, alt: "Close-up of octopus and mussel pasta" },
   { src: gallery9, alt: "Restaurant table setting with seafood pasta" },
   { src: gallery10, alt: "Plated frutti di mare with rosé" },
+  { src: gallery11, alt: "Grilled octopus on black risotto with olives and white wine" },
+  { src: gallery12, alt: "Couple toasting with red and white wine at the table" },
+  { src: gallery13, alt: "Octopus on squid ink risotto with bread basket" },
+  { src: gallery14, alt: "Chef squeezing fresh lemon over seared tuna steak" },
+  { src: gallery15, alt: "Close-up of grilled octopus tentacle on black risotto" },
 ];
 
 export default function GalleryPage() {
