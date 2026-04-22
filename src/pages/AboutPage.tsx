@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import { useParams } from "react-router-dom";
 import { SupportedLanguage } from "@/i18n";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import SEO from "@/components/SEO";
 
 export default function AboutPage() {
   const { t } = useTranslation();
@@ -10,6 +11,10 @@ export default function AboutPage() {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title={`${t("about.title")} — ${t("about.subtitle")}`.slice(0, 60)}
+        description={t("about.subtitle")}
+      />
       <section className="relative bg-secondary py-20">
         <div className="container">
           <div className="text-center">

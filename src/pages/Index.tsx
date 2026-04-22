@@ -1,6 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Quote } from "lucide-react";
+import SEO from "@/components/SEO";
 import HeroSlider, { type HeroSlide } from "@/components/HeroSlider";
 import hero1 from "@/assets/hero-1.jpeg";
 import hero2 from "@/assets/hero-2.jpeg";
@@ -36,6 +37,10 @@ export default function Index() {
 
   return (
     <>
+      <SEO
+        title={`${t("home.hero.title")} — ${t("home.hero.subtitle")}`.slice(0, 60)}
+        description={t("home.hero.subtitle")}
+      />
       {/* Hero Slider */}
       <HeroSlider slides={heroSlides}>
         <div className="flex flex-col items-center text-center max-w-3xl">

@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import SEO from "@/components/SEO";
 import PhotoGallery, { type GalleryImage } from "@/components/PhotoGallery";
 import gallery1 from "@/assets/gallery-1.jpeg";
 import gallery2 from "@/assets/gallery-2.jpeg";
@@ -39,6 +40,10 @@ export default function GalleryPage() {
 
   return (
     <>
+      <SEO
+        title={`${t("home.gallery.title")} — ${t("home.hero.title")}`.slice(0, 60)}
+        description={t("home.gallery.subtitle")}
+      />
       <section className="relative bg-secondary py-20">
         <div className="container">
           <div className="text-center">
