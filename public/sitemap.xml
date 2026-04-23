@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://culinary-compass-brown.vercel.app/</loc>
+    <lastmod>2025-04-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://culinary-compass-brown.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="sr" href="https://culinary-compass-brown.vercel.app/sr/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://culinary-compass-brown.vercel.app/ru/" />
+  </url>
+  <url>
+    <loc>https://culinary-compass-brown.vercel.app/gallery</loc>
+    <lastmod>2025-04-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://culinary-compass-brown.vercel.app/gallery" />
+    <xhtml:link rel="alternate" hreflang="sr" href="https://culinary-compass-brown.vercel.app/sr/gallery" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://culinary-compass-brown.vercel.app/ru/gallery" />
+  </url>
+  <url>
+    <loc>https://culinary-compass-brown.vercel.app/menu</loc>
+    <lastmod>2025-04-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://culinary-compass-brown.vercel.app/menu" />
+    <xhtml:link rel="alternate" hreflang="sr" href="https://culinary-compass-brown.vercel.app/sr/menu" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://culinary-compass-brown.vercel.app/ru/menu" />
+  </url>
+  <url>
+    <loc>https://culinary-compass-brown.vercel.app/about</loc>
+    <lastmod>2025-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://culinary-compass-brown.vercel.app/about" />
+    <xhtml:link rel="alternate" hreflang="sr" href="https://culinary-compass-brown.vercel.app/sr/about" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://culinary-compass-brown.vercel.app/ru/about" />
+  </url>
+</urlset>
