@@ -32,14 +32,6 @@
       "dish2": {
         "name": "Dunavski Losos",
         "description": "Pečeni file sa zlatnim beurre blanc sosom, mirođijom i sezonskim povrćem."
-      },
-      "dish3": {
-        "name": "Čokoladni Fondan",
-        "description": "Bogata tamna čokoladna torta sa rastopljenim centrom, svežim bobičastim voćem i vanila gelatom."
-      },
-      "dish4": {
-        "name": "Gulaš",
-        "description": "Polako dinstana govedina u bogatom paprika sosu sa korenastim povrćem i svežim biljem."
       }
     },
     "testimonials": {

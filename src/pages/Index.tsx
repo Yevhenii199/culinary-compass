@@ -10,8 +10,6 @@ import hero4 from "@/assets/hero-4.jpeg";
 import hero5 from "@/assets/hero-5.jpeg";
 import dish1 from "@/assets/dish-1.jpg";
 import dish2 from "@/assets/dish-2.jpg";
-import dish3 from "@/assets/dish-3.jpg";
-import dish4 from "@/assets/dish-4.jpg";
 
 const heroSlides: HeroSlide[] = [
   { src: hero1, alt: "Grilled octopus with black risotto" },
@@ -21,8 +19,8 @@ const heroSlides: HeroSlide[] = [
   { src: hero5, alt: "Octopus tentacle close-up with olives" },
 ];
 
-const dishImages = [dish1, dish2, dish3, dish4];
-const dishKeys = ["dish1", "dish2", "dish3", "dish4"];
+const dishImages = [dish1, dish2];
+const dishKeys = ["dish1", "dish2"];
 
 export default function Index() {
   const { t } = useTranslation();

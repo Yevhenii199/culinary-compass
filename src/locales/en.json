@@ -32,14 +32,6 @@
       "dish2": {
         "name": "Danube Salmon",
         "description": "Pan-seared fillet with golden beurre blanc, dill, and seasonal vegetables."
-      },
-      "dish3": {
-        "name": "Chocolate Fondant",
-        "description": "Rich dark chocolate cake with molten center, fresh berries, and vanilla gelato."
-      },
-      "dish4": {
-        "name": "Goulash",
-        "description": "Slow-braised beef in a rich paprika broth with root vegetables and fresh herbs."
       }
     },
     "testimonials": {
