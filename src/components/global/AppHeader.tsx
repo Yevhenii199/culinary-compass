@@ -3,6 +3,7 @@ import { Link, useParams, useNavigate, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Menu, X, Globe } from "lucide-react";
 import { supportedLanguages, type SupportedLanguage } from "@/i18n";
+import trpezaLogo from "@/assets/trpeza-logo.png";
 
 const langLabels: Record<SupportedLanguage, string> = {
   en: "EN",
@@ -50,8 +51,12 @@ export default function AppHeader() {
     <header className="sticky top-0 z-50 border-b border-border bg-secondary/95 backdrop-blur supports-[backdrop-filter]:bg-secondary/80">
       <div className="container flex h-16 items-center justify-between">
         {/* Logo */}
-        <Link to={`/${currentLang}`} className="font-display text-2xl font-bold tracking-widest text-primary">
-          TRPEZA
+        <Link to={`/${currentLang}`} className="flex items-center" aria-label="TRPEZA home">
+          <img
+            src={trpezaLogo}
+            alt="TRPEZA Fine Dining"
+            className="h-11 w-auto object-contain"
+          />
         </Link>
 
         {/* Desktop Nav */}
