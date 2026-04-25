@@ -10,7 +10,7 @@ export type LocaleSeo = {
 
 export const siteConfig = {
   /** Canonical site URL (no trailing slash). Used to build absolute URLs for OG images and canonical links. */
-  siteUrl: "https://trpeza.vercel.app",
+  siteUrl: "https://trpezasutomore.me",
 
   /** Brand name shown in OG site_name. */
   siteName: "Restaurant TRPEZA",
