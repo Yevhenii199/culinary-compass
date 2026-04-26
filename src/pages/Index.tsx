@@ -9,7 +9,7 @@ import hero3 from "@/assets/hero-3.jpeg";
 import hero4 from "@/assets/hero-4.jpeg";
 import hero5 from "@/assets/hero-5.jpeg";
 import dish1 from "@/assets/dish-1.jpg";
-import dish2 from "@/assets/dish-2.jpg";
+import featuredGrillPlatter from "@/assets/featured-grill-platter.jpeg";
 
 const heroSlides: HeroSlide[] = [
   { src: hero1, alt: "Grilled octopus with black risotto" },
@@ -19,7 +19,7 @@ const heroSlides: HeroSlide[] = [
   { src: hero5, alt: "Octopus tentacle close-up with olives" },
 ];
 
-const dishImages = [dish1, dish2];
+const dishImages = [featuredGrillPlatter, dish1];
 const dishKeys = ["dish1", "dish2"];
 
 export default function Index() {
