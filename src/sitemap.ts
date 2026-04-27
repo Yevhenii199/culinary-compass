@@ -1,5 +1,5 @@
 /**
- * Sitemap configuration and generator for Restaurant TRPEZA.
+ * Sitemap configuration and generator for Restaurant ТРПЕЗА.
  *
  * Usage:
  *   import { generateSitemap } from "@/sitemap";

@@ -59,7 +59,7 @@ export const menuData: MenuCategory[] = [
         id: "breakfast-04",
         name: {
           en: "Egg Platter",
-          sr: "Trpeza jaja",
+          sr: "Трпеза jaja",
           ru: "Яичница «Трпеза»"
         },
         description: {
@@ -261,7 +261,7 @@ export const menuData: MenuCategory[] = [
         id: "appetizers-04",
         name: {
           en: "Platter for Two",
-          sr: "Trpeza pjat za dvije osobe",
+          sr: "Трпеза pjat za dvije osobe",
           ru: "Ассорти на двоих"
         },
         description: {

@@ -12,7 +12,7 @@
   },
   "home": {
     "hero": {
-      "title": "Restoran TRPEZA",
+      "title": "Restoran ТРПЕЗА",
       "subtitle": "Tradicionalna balkanska kuhinja, свежи morski plodovi i pogled koji ostaje u srcu zauvek",
       "cta": "Pogledajte Meni"
     },
@@ -30,7 +30,7 @@
         "description": "Sočno meso sa roštilja uz zlatni krompir, sveže povrće i masline — bogat tanjir za pravo druženje."
       },
       "dish2": {
-        "name": "TRPEZA Pizza Specijalitet",
+        "name": "ТРПЕЗА Pizza Specijalitet",
         "description": "Vazdušasto rumeno testo sa nežnim pršutom, svežim paradajzom i mirisnim zelenilom — italijanski akcenat uz balkansku toplinu."
       }
     },
@@ -56,7 +56,7 @@
     }
   },
   "about": {
-    "title": "TRPEZA",
+    "title": "ТРПЕЗА",
     "subtitle": "Gde tradicija susreće eleganciju",
     "story": {
       "title": "Naša Priča",

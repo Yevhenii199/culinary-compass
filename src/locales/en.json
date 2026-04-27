@@ -12,7 +12,7 @@
   },
   "home": {
     "hero": {
-      "title": "Restaurant TRPEZA",
+      "title": "Restaurant ТРПЕЗА",
       "subtitle": "Traditional Balkan cuisine, the freshest seafood, and a view that will capture your heart",
       "cta": "View Our Menu"
     },
@@ -30,7 +30,7 @@
         "description": "Juicy grilled meats with golden potatoes, fresh vegetables, and olives — a generous plate made for sharing."
       },
       "dish2": {
-        "name": "TRPEZA Signature Pizza",
+        "name": "ТРПЕЗА Signature Pizza",
         "description": "A blistered, airy crust with delicate prosciutto, fresh tomatoes, and fragrant greens — an Italian accent with Balkan warmth."
       }
     },
@@ -56,7 +56,7 @@
     }
   },
   "about": {
-    "title": "TRPEZA",
+    "title": "ТРПЕЗА",
     "subtitle": "Where tradition meets elegance",
     "story": {
       "title": "Our Story",
