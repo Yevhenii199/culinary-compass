@@ -80,16 +80,16 @@ export default function AboutPage() {
                     <MapPin className="h-12 w-12 text-primary mx-auto mb-2" />
                     <p className="font-display text-lg font-semibold text-foreground">
                       {currentLang === "en"
-                        ? "Интерактивная Карта"
+                        ? "Interactive Map"
                         : currentLang === "sr"
-                        ? "Интерактивна Мапа"
+                        ? "Interaktivna Mapa"
                         : "Интерактивная Карта"}
                     </p>
                     <p className="font-body text-sm text-muted-foreground mt-1">
                       {currentLang === "en"
-                        ? "Google Карта Скоро"
+                        ? "Google Map Coming Soon"
                         : currentLang === "sr"
-                        ? "Ускоро Google Мапа"
+                        ? "Uskoro Google Mapa"
                         : "Google Карта Скоро"}
                     </p>
                   </div>

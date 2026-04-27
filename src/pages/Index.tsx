@@ -12,11 +12,11 @@ import featuredGrillPlatter from "@/assets/featured-grill-platter.jpeg";
 import featuredPizza from "@/assets/featured-pizza.jpeg";
 
 const heroSlides: HeroSlide[] = [
-  { src: hero1, alt: "Осьминог на гриле с чёрным ризотто" },
-  { src: hero2, alt: "Тост с вином в ресторане" },
-  { src: hero3, alt: "Фирменная подача морепродуктов" },
-  { src: hero4, alt: "Нарезанный стейк с красным вином" },
-  { src: hero5, alt: "Крупный план щупальца осьминога с оливками" },
+  { src: hero1, alt: "Grilled octopus with black risotto" },
+  { src: hero2, alt: "Wine toast at GASTRONOM" },
+  { src: hero3, alt: "Signature seafood plating" },
+  { src: hero4, alt: "Sliced steak with red wine" },
+  { src: hero5, alt: "Octopus tentacle close-up with olives" },
 ];
 
 const dishImages = [featuredGrillPlatter, featuredPizza];

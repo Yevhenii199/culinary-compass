@@ -1,103 +1,103 @@
 {
   "navigation": {
-    "home": "Главная",
-    "gallery": "Галерея",
-    "menu": "Меню",
-    "about": "О нас"
+    "home": "Home",
+    "gallery": "Gallery",
+    "menu": "Menu",
+    "about": "About"
   },
   "common": {
-    "language": "Язык",
-    "openMenu": "Открыть меню",
-    "closeMenu": "Закрыть меню"
+    "language": "Language",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "home": {
     "hero": {
-      "title": "Ресторан ТРПЕЗА",
-      "subtitle": "Традиционная балканская кухня, свежайшие морепродукты и вид, который останется в вашем сердце навсегда",
-      "cta": "Посмотреть Меню"
+      "title": "Restaurant ТРПЕЗА",
+      "subtitle": "Traditional Balkan cuisine, the freshest seafood, and a view that will capture your heart",
+      "cta": "View Our Menu"
     },
     "featured": {
-      "title": "Избранные Блюда",
-      "subtitle": "Выбор шеф-повара из фирменных творений"
+      "title": "Featured Dishes",
+      "subtitle": "Our chef's selection of signature creations"
     },
     "gallery": {
-      "title": "Галерея",
-      "subtitle": "Взгляд в нашу кухню, на наш стол и наше мастерство"
+      "title": "Gallery",
+      "subtitle": "A glimpse into our kitchen, our table, and our craft"
     },
     "dishes": {
       "dish1": {
-        "name": "Балканское гриль-плато",
-        "description": "Сочное мясо на гриле с золотистым картофелем, свежими овощами и оливками — щедрая тарелка для настоящего застолья."
+        "name": "Balkan Grill Platter",
+        "description": "Juicy grilled meats with golden potatoes, fresh vegetables, and olives — a generous plate made for sharing."
       },
       "dish2": {
-        "name": "Фирменная пицца ТРПЕЗА",
-        "description": "Пышная румяная основа, нежная прошутто, свежие томаты и ароматная зелень — итальянский акцент в балканском настроении."
+        "name": "ТРПЕЗА Signature Pizza",
+        "description": "A blistered, airy crust with delicate prosciutto, fresh tomatoes, and fragrant greens — an Italian accent with Balkan warmth."
       }
     },
     "testimonials": {
-      "title": "Что Говорят Наши Гости",
+      "title": "What Our Guests Say",
       "items": [
         {
-          "quote": "Незабываемый вечер. Вкусы перенесли меня прямо на бабушкину кухню, но с современным поворотом.",
-          "author": "Марина С.",
-          "role": "Кулинарный критик"
+          "quote": "An unforgettable evening. The flavors transported me straight to my grandmother's kitchen, yet with a modern twist I never expected.",
+          "author": "Marina S.",
+          "role": "Food Critic"
         },
         {
-          "quote": "Это лучший ресторан. Каждое блюдо — шедевр.",
-          "author": "Алексей П.",
-          "role": "Постоянный гость"
+          "quote": "Simply the finest dining experience. Every dish is a masterpiece.",
+          "author": "Aleksei P.",
+          "role": "Regular Guest"
         },
         {
-          "quote": "Атмосфера, обслуживание, еда — всё было безупречно. Мы вернёмся снова и снова.",
-          "author": "София Д.",
-          "role": "Тревел-блогер"
+          "quote": "The ambiance, the service, the food — everything was impeccable. We will return again and again.",
+          "author": "Sofia D.",
+          "role": "Travel Blogger"
         }
       ]
     }
   },
   "about": {
     "title": "ТРПЕЗА",
-    "subtitle": "Где традиция встречает элегантность",
+    "subtitle": "Where tradition meets elegance",
     "story": {
-      "title": "Наша История",
+      "title": "Our Story",
       "paragraphs": [
-        "В основе нашей философии лежит честность и аутентичность. Мы верим, что идеальное блюдо не нуждается в сложных спецэффектах — оно требует безупречных ингредиентов. Именно поэтому мы вручную отбираем фермерское мясо для нашего гриля, а рыбу и морепродукты покупаем у местных рыбаков. Мы бережно храним традиционные рецепты Балкан, добавляя к ним легкие современные акценты, чтобы каждое блюдо рассказывало вам историю солнца, гор и Адриатического моря"
+        "Our philosophy is rooted in honesty and authenticity. We believe that a perfect dish doesn’t need complex special effects — it requires flawless ingredients. That is why we hand-pick farm-raised meats for our grill and buy fish and seafood directly from local fishermen. We carefully preserve traditional Balkan recipes, adding light modern touches so that every dish tells you a story of the sun, the mountains, and the Adriatic Sea."
       ]
     },
     "contact": {
-      "title": "Посетите Нас",
-      "address": "Адрес",
-      "addressValue": "176 Партизанский путь, Сутоморе 85355, Черногория",
-      "phone": "Телефон",
+      "title": "Visit Us",
+      "address": "Address",
+      "addressValue": "Partizanski put 176, Sutomore 85355, Montenegro",
+      "phone": "Phone",
       "phoneValue": "+382 67 848 108",
-      "email": "Эл. почта",
-      "emailValue": "brtuttobene@gmail.com"
+      "email": "Email",
+    "emailValue": "brtuttobene@gmail.com"
     },
     "hours": {
-      "title": "Время Работы",
-      "weekday": "Понедельник - Пятница",
-      "weekdayTime": "08:00 - 23:00",
-      "saturday": "Суббота",
-      "saturdayTime": "08:00 - 23:00",
-      "sunday": "Воскресенье",
-      "sundayTime": "08:00 - 23:00",
-      "closed": "Закрыто в крупные праздники"
+      "title": "Opening Hours",
+      "weekday": "Monday - Friday",
+      "weekdayTime": "08:00 AM - 11:00 PM",
+      "saturday": "Saturday",
+      "saturdayTime": "08:00 AM - 11:00 PM",
+      "sunday": "Sunday",
+      "sundayTime": "08:00 AM - 11:00 PM",
+      "closed": "Closed on major holidays"
     }
   },
   "footer": {
-    "about": "Изысканный ресторан, сочетающий традиции с современным кулинарным искусством. Каждое блюдо рассказывает историю страсти и мастерства.",
-    "address": "Адрес",
-    "addressValue": "176 Партизанский путь, Сутоморе 85355, Черногория",
-    "phone": "Телефон",
+    "about": "A refined dining experience blending tradition with modern culinary artistry. Every dish tells a story of passion and craft.",
+    "address": "Address",
+    "addressValue": "Partizanski put 176, Sutomore 85355, Montenegro",
+    "phone": "Phone",
     "phoneValue": "+382 67 848 108",
-    "email": "Эл. почта",
+    "email": "Email",
     "emailValue": "brtuttobene@gmail.com",
-    "contactUs": "Свяжитесь с нами",
-    "followUs": "Подписывайтесь",
-    "findUs": "Найдите нас",
-    "legal": "Правовая информация",
-    "privacyPolicy": "Политика конфиденциальности",
-    "termsOfService": "Условия использования",
-    "rights": "Все права защищены."
+    "contactUs": "Contact Us",
+    "followUs": "Follow Us",
+    "findUs": "Find Us",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "rights": "All rights reserved."
   }
 }

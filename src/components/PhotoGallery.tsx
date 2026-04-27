@@ -55,7 +55,7 @@ export default function PhotoGallery({ images, className }: PhotoGalleryProps) {
             key={img.src}
             type="button"
             onClick={() => setOpenIndex(i)}
-            aria-label={`Открыть изображение: ${img.alt}`}
+            aria-label={`Open image: ${img.alt}`}
             className="group relative overflow-hidden rounded-lg bg-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background"
           >
             <div className="aspect-[3/4] w-full overflow-hidden">
@@ -78,7 +78,7 @@ export default function PhotoGallery({ images, className }: PhotoGalleryProps) {
         <div
           role="dialog"
           aria-modal="true"
-          aria-label="Просмотр изображения"
+          aria-label="Image preview"
           onClick={close}
           className="fixed inset-0 z-50 flex items-center justify-center bg-deep-darker/95 p-4 animate-in fade-in-0 duration-200"
         >
@@ -88,7 +88,7 @@ export default function PhotoGallery({ images, className }: PhotoGalleryProps) {
               e.stopPropagation();
               close();
             }}
-            aria-label="Закрыть"
+            aria-label="Close"
             className="absolute right-4 top-4 z-10 rounded-full bg-deep-darker/60 p-2 text-cream transition-colors hover:bg-deep-darker focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
           >
             <X className="h-6 w-6" />
@@ -102,7 +102,7 @@ export default function PhotoGallery({ images, className }: PhotoGalleryProps) {
                   e.stopPropagation();
                   prev();
                 }}
-                 aria-label="Предыдущее изображение"
+                aria-label="Previous image"
                 className="absolute left-4 top-1/2 z-10 -translate-y-1/2 rounded-full bg-deep-darker/60 p-2 text-cream transition-colors hover:bg-deep-darker focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
               >
                 <ChevronLeft className="h-6 w-6" />
@@ -113,7 +113,7 @@ export default function PhotoGallery({ images, className }: PhotoGalleryProps) {
                   e.stopPropagation();
                   next();
                 }}
-                 aria-label="Следующее изображение"
+                aria-label="Next image"
                 className="absolute right-4 top-1/2 z-10 -translate-y-1/2 rounded-full bg-deep-darker/60 p-2 text-cream transition-colors hover:bg-deep-darker focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
               >
                 <ChevronRight className="h-6 w-6" />

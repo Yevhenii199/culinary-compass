@@ -16,8 +16,8 @@ export default function MenuHero() {
             {t("navigation.menu")}
           </h1>
           <p className="mt-4 font-body text-lg text-secondary-foreground/70 max-w-2xl mx-auto">
-            {currentLang === "en" && "Откройте для себя наш тщательно подобранный выбор традиционной сербской и русской кухни"}
-            {currentLang === "sr" && "Откријте наш пажљиво одабран избор традиционалне српске и руске кухиње"}
+            {currentLang === "en" && "Discover our carefully curated selection of traditional Serbian and Russian cuisine"}
+            {currentLang === "sr" && "Otkrijte naš pažljivo odabran izbor tradicionalne srpske i ruske kuhinje"}
             {currentLang === "ru" && "Откройте для себя наш тщательно подобранный выбор традиционной сербской и русской кухни"}
           </p>
           <div className="mt-4 h-px w-12 mx-auto bg-primary" />

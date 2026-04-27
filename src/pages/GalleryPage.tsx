@@ -18,21 +18,21 @@ import gallery14 from "@/assets/gallery-14.jpeg";
 import gallery15 from "@/assets/gallery-15.jpeg";
 
 const galleryImages: GalleryImage[] = [
-  { src: gallery1, alt: "Нарезанный стейк из тунца со свежим лимоном" },
-  { src: gallery2, alt: "Сомелье представляет бутылку итальянского вина" },
-  { src: gallery3, alt: "Паста с морепродуктами и Пино Гриджио" },
-  { src: gallery4, alt: "Осьминог на гриле с чёрным ризотто и оливками" },
-  { src: gallery5, alt: "Тальятелле с морепродуктами и белым вином" },
-  { src: gallery6, alt: "Гость наслаждается пастой с морепродуктами" },
-  { src: gallery7, alt: "Паста с морепродуктами и розовым вином" },
-  { src: gallery8, alt: "Крупный план пасты с осьминогом и мидиями" },
-  { src: gallery9, alt: "Сервировка стола с пастой из морепродуктов" },
-  { src: gallery10, alt: "Блюдо с морепродуктами и розовым вином" },
-  { src: gallery11, alt: "Осьминог на гриле с чёрным ризотто, оливками и белым вином" },
-  { src: gallery12, alt: "Пара поднимает бокалы с красным и белым вином" },
-  { src: gallery13, alt: "Осьминог на ризотто с чернилами каракатицы и корзиной хлеба" },
-  { src: gallery14, alt: "Шеф выжимает свежий лимон на стейк из тунца" },
-  { src: gallery15, alt: "Крупный план щупальца осьминога на чёрном ризотто" },
+  { src: gallery1, alt: "Sliced tuna steak with fresh lemon" },
+  { src: gallery2, alt: "Sommelier presenting a bottle of Italian wine" },
+  { src: gallery3, alt: "Seafood pasta with Pinot Grigio" },
+  { src: gallery4, alt: "Grilled octopus on black risotto with olives" },
+  { src: gallery5, alt: "Plated seafood tagliatelle with white wine" },
+  { src: gallery6, alt: "Guest enjoying seafood pasta" },
+  { src: gallery7, alt: "Seafood pasta with rosé wine" },
+  { src: gallery8, alt: "Close-up of octopus and mussel pasta" },
+  { src: gallery9, alt: "Restaurant table setting with seafood pasta" },
+  { src: gallery10, alt: "Plated frutti di mare with rosé" },
+  { src: gallery11, alt: "Grilled octopus on black risotto with olives and white wine" },
+  { src: gallery12, alt: "Couple toasting with red and white wine at the table" },
+  { src: gallery13, alt: "Octopus on squid ink risotto with bread basket" },
+  { src: gallery14, alt: "Chef squeezing fresh lemon over seared tuna steak" },
+  { src: gallery15, alt: "Close-up of grilled octopus tentacle on black risotto" },
 ];
 
 export default function GalleryPage() {

@@ -1,103 +1,103 @@
 {
   "navigation": {
-    "home": "Главная",
-    "gallery": "Галерея",
-    "menu": "Меню",
-    "about": "О нас"
+    "home": "Početna",
+    "gallery": "Galerija",
+    "menu": "Meni",
+    "about": "O nama"
   },
   "common": {
-    "language": "Язык",
-    "openMenu": "Открыть меню",
-    "closeMenu": "Закрыть меню"
+    "language": "Jezik",
+    "openMenu": "Otvorite meni",
+    "closeMenu": "Zatvorite meni"
   },
   "home": {
     "hero": {
-      "title": "Ресторан ТРПЕЗА",
-      "subtitle": "Традиционная балканская кухня, свежайшие морепродукты и вид, который останется в вашем сердце навсегда",
-      "cta": "Посмотреть Меню"
+      "title": "Restoran ТРПЕЗА",
+      "subtitle": "Tradicionalna balkanska kuhinja, свежи morski plodovi i pogled koji ostaje u srcu zauvek",
+      "cta": "Pogledajte Meni"
     },
     "featured": {
-      "title": "Избранные Блюда",
-      "subtitle": "Выбор шеф-повара из фирменных творений"
+      "title": "Izdvojena Jela",
+      "subtitle": "Izbor šefa kuhinje od prepoznatljivih kreacija"
     },
     "gallery": {
-      "title": "Галерея",
-      "subtitle": "Взгляд в нашу кухню, на наш стол и наше мастерство"
+      "title": "Galerija",
+      "subtitle": "Pogled u našu kuhinju, naš sto i naš zanat"
     },
     "dishes": {
       "dish1": {
-        "name": "Балканское гриль-плато",
-        "description": "Сочное мясо на гриле с золотистым картофелем, свежими овощами и оливками — щедрая тарелка для настоящего застолья."
+        "name": "Balkanski Grill Tanjir",
+        "description": "Sočno meso sa roštilja uz zlatni krompir, sveže povrće i masline — bogat tanjir za pravo druženje."
       },
       "dish2": {
-        "name": "Фирменная пицца ТРПЕЗА",
-        "description": "Пышная румяная основа, нежная прошутто, свежие томаты и ароматная зелень — итальянский акцент в балканском настроении."
+        "name": "ТРПЕЗА Pizza Specijalitet",
+        "description": "Vazdušasto rumeno testo sa nežnim pršutom, svežim paradajzom i mirisnim zelenilom — italijanski akcenat uz balkansku toplinu."
       }
     },
     "testimonials": {
-      "title": "Что Говорят Наши Гости",
+      "title": "Šta Kažu Naši Gosti",
       "items": [
         {
-          "quote": "Незабываемый вечер. Вкусы перенесли меня прямо на бабушкину кухню, но с современным поворотом.",
-          "author": "Марина С.",
-          "role": "Кулинарный критик"
+          "quote": "Nezaboravno veče. Ukusi su me preneli pravo u bakin kuhinju, ali sa modernim preokretom.",
+          "author": "Marina S.",
+          "role": "Kritičar hrane"
         },
         {
-          "quote": "Это лучший ресторан. Каждое блюдо — шедевр.",
-          "author": "Алексей П.",
-          "role": "Постоянный гость"
+          "quote": "Jednostavno najfinije iskustvo obedovanja. Svako jelo je remek-delo.",
+          "author": "Aleksej P.",
+          "role": "Redovni gost"
         },
         {
-          "quote": "Атмосфера, обслуживание, еда — всё было безупречно. Мы вернёмся снова и снова.",
-          "author": "София Д.",
-          "role": "Тревел-блогер"
+          "quote": "Ambijent, usluga, hrana — sve je bilo besprekorno. Vraćaćemo se iznova.",
+          "author": "Sofija D.",
+          "role": "Travel bloger"
         }
       ]
     }
   },
   "about": {
     "title": "ТРПЕЗА",
-    "subtitle": "Где традиция встречает элегантность",
+    "subtitle": "Gde tradicija susreće eleganciju",
     "story": {
-      "title": "Наша История",
+      "title": "Naša Priča",
       "paragraphs": [
-        "В основе нашей философии лежит честность и аутентичность. Мы верим, что идеальное блюдо не нуждается в сложных спецэффектах — оно требует безупречных ингредиентов. Именно поэтому мы вручную отбираем фермерское мясо для нашего гриля, а рыбу и морепродукты покупаем у местных рыбаков. Мы бережно храним традиционные рецепты Балкан, добавляя к ним легкие современные акценты, чтобы каждое блюдо рассказывало вам историю солнца, гор и Адриатического моря"
+        "U osnovi naše filozofije leže iskrenost i autentičnost. Vjerujemo da savršeno jelo ne zahtijeva komplikovane specijalne efekte — ono traži besprijekorne sastojke. Upravo zato lično biramo domaće meso sa farmi za naš roštilj, a ribu i plodove mora kupujemo direktno od lokalnih ribara. Pažljivo čuvamo tradicionalne balkanske recepte, dodajući im blage moderne akcente, kako bi vam svako jelo ispričalo priču o suncu, planinama i Jadranskom moru."
       ]
     },
     "contact": {
-      "title": "Посетите Нас",
-      "address": "Адрес",
-      "addressValue": "176 Партизанский путь, Сутоморе 85355, Черногория",
-      "phone": "Телефон",
+      "title": "Posetite Nas",
+      "address": "Adresa",
+      "addressValue": "Partizanski put 176, Sutomore 85355, Crna Gora",
+      "phone": "Telefon",
       "phoneValue": "+382 67 848 108",
-      "email": "Эл. почта",
-      "emailValue": "brtuttobene@gmail.com"
+      "email": "Email",
+    "emailValue": "brtuttobene@gmail.com"
     },
     "hours": {
-      "title": "Время Работы",
-      "weekday": "Понедельник - Пятница",
+      "title": "Vremе Otvaranja",
+      "weekday": "Ponedeljak - Petak",
       "weekdayTime": "08:00 - 23:00",
-      "saturday": "Суббота",
+      "saturday": "Subota",
       "saturdayTime": "08:00 - 23:00",
-      "sunday": "Воскресенье",
+      "sunday": "Nedelja",
       "sundayTime": "08:00 - 23:00",
-      "closed": "Закрыто в крупные праздники"
+      "closed": "Zatvoreno na velike praznike"
     }
   },
   "footer": {
-    "about": "Изысканный ресторан, сочетающий традиции с современным кулинарным искусством. Каждое блюдо рассказывает историю страсти и мастерства.",
-    "address": "Адрес",
-    "addressValue": "176 Партизанский путь, Сутоморе 85355, Черногория",
-    "phone": "Телефон",
+    "about": "Rafinirano iskustvo obedovanja koje spaja tradiciju sa modernom kulinarskom umetnošću. Svako jelo priča priču o strasti i zanatu.",
+    "address": "Adresa",
+    "addressValue": "Partizanski put 176, Sutomore 85355, Crna Gora",
+    "phone": "Telefon",
     "phoneValue": "+382 67 848 108",
-    "email": "Эл. почта",
+    "email": "Email",
     "emailValue": "brtuttobene@gmail.com",
-    "contactUs": "Свяжитесь с нами",
-    "followUs": "Подписывайтесь",
-    "findUs": "Найдите нас",
-    "legal": "Правовая информация",
-    "privacyPolicy": "Политика конфиденциальности",
-    "termsOfService": "Условия использования",
-    "rights": "Все права защищены."
+    "contactUs": "Kontaktirajte nas",
+    "followUs": "Pratite nas",
+    "findUs": "Pronađite nas",
+    "legal": "Pravne informacije",
+    "privacyPolicy": "Politika privatnosti",
+    "termsOfService": "Uslovi korišćenja",
+    "rights": "Sva prava zadržana."
   }
 }
