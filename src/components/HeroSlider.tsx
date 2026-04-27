@@ -81,7 +81,7 @@ export default function HeroSlider({
     <section
       ref={regionRef}
       aria-roledescription="carousel"
-      aria-label="Hero image gallery"
+      aria-label="Галерея главных изображений"
       tabIndex={0}
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
@@ -105,7 +105,7 @@ export default function HeroSlider({
               key={slide.src}
               role="group"
               aria-roledescription="slide"
-              aria-label={`${i + 1} of ${total}`}
+              aria-label={`${i + 1} из ${total}`}
               aria-hidden={!isActive}
               className={cn(
                 "absolute inset-0 transition-opacity duration-1000 ease-in-out",
@@ -141,7 +141,7 @@ export default function HeroSlider({
       {total > 1 && (
         <div
           role="tablist"
-          aria-label="Select slide"
+          aria-label="Выбор слайда"
           className="absolute bottom-6 left-1/2 z-20 flex -translate-x-1/2 items-center gap-2"
         >
           {slides.map((_, i) => {
@@ -152,7 +152,7 @@ export default function HeroSlider({
                 type="button"
                 role="tab"
                 aria-selected={isActive}
-                aria-label={`Go to slide ${i + 1}`}
+                 aria-label={`Перейти к слайду ${i + 1}`}
                 onClick={() => goTo(i)}
                 className={cn(
                   "h-2 rounded-full transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-deep-darker",
