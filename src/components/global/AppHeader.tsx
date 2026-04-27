@@ -5,9 +5,9 @@ import { Menu, X, Globe } from "lucide-react";
 import { supportedLanguages, type SupportedLanguage } from "@/i18n";
 
 const langLabels: Record<SupportedLanguage, string> = {
-  en: "EN",
-  sr: "SR",
-  ru: "RU",
+  en: "ЕН",
+  sr: "СР",
+  ru: "РУ",
 };
 
 const navKeys = ["home", "gallery", "menu", "about"] as const;
