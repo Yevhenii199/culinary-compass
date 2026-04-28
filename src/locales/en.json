@@ -3,6 +3,7 @@
     "home": "Home",
     "gallery": "Gallery",
     "menu": "Menu",
+    "wineList": "Wine List",
     "about": "About"
   },
   "common": {
@@ -54,6 +55,9 @@
         }
       ]
     }
+  },
+  "wineList": {
+    "subtitle": "A curated selection of sparkling, white, rosé, and red wines for the table"
   },
   "about": {
     "title": "ТРПЕЗА",

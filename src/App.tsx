@@ -10,6 +10,7 @@ import MainLayout from "@/layouts/MainLayout";
 import Index from "@/pages/Index";
 import GalleryPage from "@/pages/GalleryPage";
 import MenuPage from "@/pages/MenuPage";
+import WineListPage from "@/pages/WineListPage";
 import AboutPage from "@/pages/AboutPage";
 import NotFound from "@/pages/NotFound";
 
@@ -51,6 +52,7 @@ const App = () => (
             <Route index element={<Index />} />
             <Route path="gallery" element={<GalleryPage />} />
             <Route path="menu" element={<MenuPage />} />
+            <Route path="wine-list" element={<WineListPage />} />
             <Route path="about" element={<AboutPage />} />
           </Route>
           <Route path="*" element={<NotFound />} />

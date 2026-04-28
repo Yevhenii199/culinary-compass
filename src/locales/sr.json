@@ -3,6 +3,7 @@
     "home": "Početna",
     "gallery": "Galerija",
     "menu": "Meni",
+    "wineList": "Vinska karta",
     "about": "O nama"
   },
   "common": {
@@ -54,6 +55,9 @@
         }
       ]
     }
+  },
+  "wineList": {
+    "subtitle": "Pažljivo odabrana ponuda pjenušavih, bijelih, rose i crvenih vina za vašu trpezu"
   },
   "about": {
     "title": "ТРПЕЗА",
