@@ -26,7 +26,7 @@ export const wineData: WineCategory[] = [
         items: [
           { name: "Prosecco Brut Romeo & Jullia", producer: "Vinarija Pasqua, Italija", volume: "0.20 l", price: 10 },
           { name: "Prosecco Brut Romeo & Jullia", producer: "Vinarija Pasqua, Italija", volume: "0.75 l", price: 30 },
-          { name: "Champagne Blanc de Blanc's Grand Cru", producer: "Bruno Paillard, Francuska", volume: "0.75 l", price: 220 },
+          { name: "Champagne Blanc de Blanc's Grand Cru", producer: "Bruno Paillard, Francuska", volume: "0.75 l", price: 230 },
         ],
       },
     ],
@@ -56,7 +56,7 @@ export const wineData: WineCategory[] = [
         name: { en: "France", sr: "Francuska", ru: "Франция" },
         items: [
           { name: "Côtes du Rhône Reserve Blanc", producer: "Vinarija Famille Perrin", volume: "0.75 l", price: 31 },
-          { name: "Chablis Le Finage", producer: "Vinarija La Chablisienne", volume: "0.75 l", price: 65 },
+          { name: "Chablis Le Finage", producer: "Vinarija La Chablisienne", volume: "0.75 l", price: 63 },
         ],
       },
     ],
@@ -70,7 +70,7 @@ export const wineData: WineCategory[] = [
         items: [
           { name: "Arhonto Rose", producer: "Vinarija Krgović, Crna Gora", volume: "0.75 l", price: 30 },
           { name: "Barbara", producer: "Vinarija Aleksić (Muscat Hamburg & Cabernet Sauvignon), Srbija", volume: "0.15 l", price: 5 },
-          { name: "Barbara", producer: "Vinarija Aleksić (Muscat Hamburg & Cabernet Sauvignon), Srbija", volume: "0.75 l", price: 29 },
+          { name: "Barbara", producer: "Vinarija Aleksić (Muscat Hamburg & Cabernet Sauvignon), Srbija", volume: "0.75 l", price: 24 },
         ],
       },
       {
