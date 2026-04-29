@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.trpezasutomore.me/</loc>
+    <loc>https://www.trpezasutomore.me</loc>
     <lastmod>2026-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.trpezasutomore.me/" />
-    <xhtml:link rel="alternate" hreflang="sr" href="https://www.trpezasutomore.me/sr/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://www.trpezasutomore.me/ru/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trpezasutomore.me" />
+    <xhtml:link rel="alternate" hreflang="sr" href="https://www.trpezasutomore.me/sr" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.trpezasutomore.me/ru" />
   </url>
   <url>
     <loc>https://www.trpezasutomore.me/gallery</loc>
