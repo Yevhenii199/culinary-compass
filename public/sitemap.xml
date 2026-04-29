@@ -2,48 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.trpezasutomore.me</loc>
+    <loc>https://trpezasutomore.me</loc>
     <lastmod>2026-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.trpezasutomore.me/en" />
-    <xhtml:link rel="alternate" hreflang="sr" href="https://www.trpezasutomore.me/sr" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://www.trpezasutomore.me/ru" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://trpezasutomore.me/en" />
+    <xhtml:link rel="alternate" hreflang="sr" href="https://trpezasutomore.me/sr" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://trpezasutomore.me/ru" />
   </url>
   <url>
-    <loc>https://www.trpezasutomore.me/gallery</loc>
+    <loc>https://trpezasutomore.me/gallery</loc>
     <lastmod>2026-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.trpezasutomore.me/gallery/en" />
-    <xhtml:link rel="alternate" hreflang="sr" href="https://www.trpezasutomore.me/sr/gallery" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://www.trpezasutomore.me/ru/gallery" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://trpezasutomore.me/gallery/en" />
+    <xhtml:link rel="alternate" hreflang="sr" href="https://trpezasutomore.me/sr/gallery" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://trpezasutomore.me/ru/gallery" />
   </url>
   <url>
-    <loc>https://www.trpezasutomore.me/menu</loc>
+    <loc>https://trpezasutomore.me/menu</loc>
     <lastmod>2026-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.trpezasutomore.me/menu/en" />
-    <xhtml:link rel="alternate" hreflang="sr" href="https://www.trpezasutomore.me/sr/menu" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://www.trpezasutomore.me/ru/menu" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://trpezasutomore.me/menu/en" />
+    <xhtml:link rel="alternate" hreflang="sr" href="https://trpezasutomore.me/sr/menu" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://trpezasutomore.me/ru/menu" />
   </url>
   <url>
-    <loc>https://www.trpezasutomore.me/wine-list</loc>
+    <loc>https://trpezasutomore.me/wine-list</loc>
     <lastmod>2026-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.trpezasutomore.me/wine-list/en" />
-    <xhtml:link rel="alternate" hreflang="sr" href="https://www.trpezasutomore.me/sr/wine-list" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://www.trpezasutomore.me/ru/wine-list" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://trpezasutomore.me/wine-list/en" />
+    <xhtml:link rel="alternate" hreflang="sr" href="https://trpezasutomore.me/sr/wine-list" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://trpezasutomore.me/ru/wine-list" />
   </url>
   <url>
-    <loc>https://www.trpezasutomore.me/about</loc>
+    <loc>https://trpezasutomore.me/about</loc>
     <lastmod>2026-04-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.trpezasutomore.me/about/en" />
-    <xhtml:link rel="alternate" hreflang="sr" href="https://www.trpezasutomore.me/sr/about" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://www.trpezasutomore.me/ru/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://trpezasutomore.me/about/en" />
+    <xhtml:link rel="alternate" hreflang="sr" href="https://trpezasutomore.me/sr/about" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://trpezasutomore.me/ru/about" />
   </url>
 </urlset>
