@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useParams, useLocation } from "react-router-dom";
+import { supportedLanguages, type SupportedLanguage } from "@/i18n";
 import {
   siteConfig,
   absoluteUrl,
@@ -48,6 +49,37 @@ function setCanonical(url: string) {
   el.setAttribute("href", url);
 }
 
+function setAlternate(lang: SupportedLanguage, url: string) {
+  let el = document.head.querySelector<HTMLLinkElement>(
+    `link[rel="alternate"][hreflang="${lang}"]`
+  );
+  if (!el) {
+    el = document.createElement("link");
+    el.setAttribute("rel", "alternate");
+    el.setAttribute("hreflang", lang);
+    document.head.appendChild(el);
+  }
+  el.setAttribute("href", url);
+}
+
+function setXDefault(url: string) {
+  let el = document.head.querySelector<HTMLLinkElement>(
+    'link[rel="alternate"][hreflang="x-default"]'
+  );
+  if (!el) {
+    el = document.createElement("link");
+    el.setAttribute("rel", "alternate");
+    el.setAttribute("hreflang", "x-default");
+    document.head.appendChild(el);
+  }
+  el.setAttribute("href", url);
+}
+
+function localizedPath(pathname: string, targetLang: SupportedLanguage) {
+  const cleanPath = pathname.replace(/^\/(en|sr|ru)(?=\/|$)/, "") || "/";
+  return `/${targetLang}${cleanPath === "/" ? "" : cleanPath}`;
+}
+
 /**
  * Imperatively syncs <head> meta tags. No external deps, no provider needed.
  */
@@ -71,12 +103,20 @@ export default function SEO({
     const finalDescription = description ?? defaults.description;
     const finalImage = absoluteUrl(image ?? siteConfig.ogImagePath);
     const url = canonical ?? absoluteUrl(pathname || "/");
+    const alternatePaths = supportedLanguages.reduce((acc, supportedLang) => {
+      acc[supportedLang] = absoluteUrl(localizedPath(pathname || "/", supportedLang));
+      return acc;
+    }, {} as Record<SupportedLanguage, string>);
 
     document.title = finalTitle;
     document.documentElement.lang = locale;
 
     setMeta("name", "description", finalDescription);
     setCanonical(url);
+    supportedLanguages.forEach((supportedLang) => {
+      setAlternate(supportedLang, alternatePaths[supportedLang]);
+    });
+    setXDefault(alternatePaths.en);
 
     // Open Graph
     setMeta("property", "og:title", finalTitle);
