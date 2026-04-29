@@ -25,6 +25,7 @@ const baseRoutes: SitemapEntry[] = [
   { path: "/", priority: 1.0, changefreq: "weekly" },
   { path: "/gallery", priority: 0.8, changefreq: "weekly" },
   { path: "/menu", priority: 0.9, changefreq: "weekly" },
+  { path: "/wine-list", priority: 0.9, changefreq: "weekly" },
   { path: "/about", priority: 0.7, changefreq: "monthly" },
 ];
 
@@ -45,17 +46,18 @@ export function buildSitemapEntries(): SitemapEntry[] {
   for (const route of baseRoutes) {
     const alternates: Record<string, string> = {};
     for (const lang of supportedLanguages) {
-      const localizedPath = lang === "en" ? route.path : `/${lang}${route.path}`;
+      const localizedPath = `/${lang}${route.path === "/" ? "" : route.path}`;
       alternates[lang] = absoluteUrl(localizedPath);
     }
 
-    // Use the default (English) URL as the canonical loc
-    entries.push({
-      ...route,
-      path: route.path === "/" ? "/" : route.path,
-      lastmod,
-      alternates,
-    });
+    for (const lang of supportedLanguages) {
+      entries.push({
+        ...route,
+        path: `/${lang}${route.path === "/" ? "" : route.path}`,
+        lastmod,
+        alternates,
+      });
+    }
   }
 
   return entries;
