@@ -19,9 +19,9 @@ export const menuData: MenuCategory[] = [
           ru: "Шакшука"
         },
         description: {
-          en: "Poached eggs in a thick sauce of roasted peppers and tomatoes, with crumbled cheese, crispy bits of homemade sausage and bacon (350g)",
+          en: "poached eggs in a thick sauce of roasted peppers and tomatoes, with crumbled cheese and crispy pieces of homemade sausage and bacon (350g)",
           sr: "Poširana jaja u gustom sosu od pečenih paprika i paradajza, sa mrvljenim sirom i hrskavim komadima domaće kobasice i slanine (350g)",
-          ru: "Яйца пашот в густом соусе из печёного перца и томатов, с измельчённым сыром, кусочками домашней колбасы и хрустящим беконом (350г)"
+          ru: "Яйца пашот в густом соусе из печёного перца и помидоров с тертым сыром и хрустящими кусочками сомашней колбасы и бекона (350г)"
         },
         price: 6.90,
         category: "breakfast",
@@ -1114,52 +1114,6 @@ export const menuData: MenuCategory[] = [
         description: { en: "Traditional sour milk", sr: "Domaće kiselo mlijeko", ru: "Традиционная простокваша" },
         price: 1.50,
         category: "side-dishes",
-        imageUrl: "/placeholder.svg"
-      }
-    ]
-  },
-  {
-    id: "extra-appetizers",
-    name: {
-      en: "Extra Appetizers",
-      sr: "Dodatna predjela",
-      ru: "Дополнительные закуски"
-    },
-    items: [
-      {
-        id: "extra-appetizers-01",
-        name: {
-          en: "Grilled Goat Cheese",
-          sr: "Grilovani koziji sir",
-          ru: "Козий сыр на гриле"
-        },
-        description: { en: "Warm grilled goat cheese", sr: "Topli grilovani koziji sir", ru: "Тёплый козий сыр на гриле" },
-        price: 9.00,
-        category: "extra-appetizers",
-        imageUrl: "/placeholder.svg"
-      },
-      {
-        id: "extra-appetizers-02",
-        name: {
-          en: "Mix of Cheeses",
-          sr: "Mix sireva",
-          ru: "Сырное ассорти"
-        },
-        description: { en: "Selection of local cheeses", sr: "Selekcija domaćih sireva", ru: "Ассорти местных сыров" },
-        price: 12.00,
-        category: "extra-appetizers",
-        imageUrl: "/placeholder.svg"
-      },
-      {
-        id: "extra-appetizers-03",
-        name: {
-          en: "Baked Eggplant with Cheese",
-          sr: "Zapečeni patlidžan sa sirom",
-          ru: "Запечённый баклажан с сыром"
-        },
-        description: { en: "Eggplant baked with cheese on top", sr: "Patlidžan zapečen sa sirom", ru: "Баклажан, запечённый с сыром" },
-        price: 7.00,
-        category: "extra-appetizers",
         imageUrl: "/placeholder.svg"
       }
     ]
