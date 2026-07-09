@@ -21,7 +21,7 @@ export const menuData: MenuCategory[] = [
         description: {
           en: "poached eggs in a thick sauce of roasted peppers and tomatoes, with crumbled cheese and crispy pieces of homemade sausage and bacon (350g)",
           sr: "Poširana jaja u gustom sosu od pečenih paprika i paradajza, sa mrvljenim sirom i hrskavim komadima domaće kobasice i slanine (350g)",
-          ru: "Яйца пашот в густом соусе из печёного перца и помидоров с тертым сыром и хрустящими кусочками сомашней колбасы и бекона (350г)"
+          ru: "Яйца пашот в густом соусе из печёного перца и помидоров с тертым сыром и хрустящими кусочками домашней колбасы и бекона (350г)"
         },
         price: 6.90,
         category: "breakfast",
@@ -181,7 +181,7 @@ export const menuData: MenuCategory[] = [
         description: {
           en: "Homemade pie with pure beef, served with sour milk (300g)",
           sr: "Domaća pita sa čistim junećim mesom, poslužena sa kiselim mlijekom (300g)",
-          ru: "Домашний пирог из чистого говяжьего фарша, подаётся с кислым молоком (300г)"
+          ru: "Домашний пирог из чистого говяжьего фарша, подаётся с традиционным балканским йогуртом».(300г)"
         },
         price: 4.50,
         category: "breakfast",
@@ -197,7 +197,7 @@ export const menuData: MenuCategory[] = [
         description: {
           en: "Homemade pie with a mix of local cheeses, served with sour milk (300g)",
           sr: "Domaća pita sa miksom domaćih sireva, poslužena sa kiselim mlijekom (300g)",
-          ru: "Домашний пирог со смесью местных сыров, подаётся с кислым молоком (300г)"
+          ru: "Домашний пирог со смесью местных сыров, подаётся с традиционным балканским йогуртом». (300г)"
         },
         price: 4.50,
         category: "breakfast",
@@ -301,12 +301,12 @@ export const menuData: MenuCategory[] = [
         name: {
           en: "Chicken in Creamy Mushroom Sauce",
           sr: "Piletina u kremastom sosu od pečuraka",
-          ru: "Курица в кремовом соусе из грибов"
+          ru: "Курица в сливочном соусе из грибов"
         },
         description: {
           en: "Juicy chicken fillet in a perfectly balanced creamy sauce made of various types of cheese, mushrooms, and baby spinach leaves (450g)",
           sr: "Sočni pileći file u savršeno izbalansiranom kremastom sosu od različitih vrsta sireva, pečuraka i listovima baby spanaća (450g)",
-          ru: "Сочное куриное филе в идеально сбалансированном кремовом соусе из разных видов сыра, грибов и листьев бэби-шпината (450г)"
+          ru: "Сочное куриное филе в идеально сбалансированном сливочном соусе из разных видов сыра, грибов и листьев бэби-шпината (450г)"
         },
         price: 12.00,
         category: "meat-dishes",
