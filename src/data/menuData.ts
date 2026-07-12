@@ -181,7 +181,7 @@ export const menuData: MenuCategory[] = [
         description: {
           en: "Homemade pie with pure beef, served with sour milk (300g)",
           sr: "Domaća pita sa čistim junećim mesom, poslužena sa kiselim mlijekom (300g)",
-          ru: "Домашний пирог из чистого говяжьего фарша, подаётся с традиционным балканским йогуртом».(300г)"
+          ru: "Домашний пирог из чистого говяжьего фарша, подаётся с традиционным балканским йогуртом (300г)"
         },
         price: 4.50,
         category: "breakfast",
@@ -197,7 +197,7 @@ export const menuData: MenuCategory[] = [
         description: {
           en: "Homemade pie with a mix of local cheeses, served with sour milk (300g)",
           sr: "Domaća pita sa miksom domaćih sireva, poslužena sa kiselim mlijekom (300g)",
-          ru: "Домашний пирог со смесью местных сыров, подаётся с традиционным балканским йогуртом». (300г)"
+          ru: "Домашний пирог со смесью местных сыров, подаётся с традиционным балканским йогуртом (300г)"
         },
         price: 4.50,
         category: "breakfast",
@@ -354,7 +354,7 @@ export const menuData: MenuCategory[] = [
         description: {
           en: "Perfectly soft and tasty veal steak prepared in butter, olive oil, and our secret spices. Ranked at the very top of our offer. Served with grilled vegetables and baked potatoes (400g)",
           sr: "Savršeno mekan i ukusan teleći biftek spreman na puteru, maslinovom ulju i našim tajnim začinima. Ovo jelo svrstava u sami vrh naše ponude. Serviran je uz grilovano povrće i pečeni krompir (400g)",
-          ru: "Идеально нежный и вкусный стейк из телятины, приготовленный на сливочном и оливковом масле с нашими секретными специями. Блюдо топ-уровня в нашем меню. Подаётся с овощами гриль и запечённым картофелем (400г)"
+          ru: "Идеально нежный и вкусный стейк из телятины, приготовленный на сливочном и оливковом масле с нашими секретными специями. Подаётся с овощами гриль и запечённым картофелем (400г)"
         },
         price: 23.00,
         category: "meat-dishes",
@@ -551,7 +551,7 @@ export const menuData: MenuCategory[] = [
         description: {
           en: "Penne in a creamy sauce prepared from four types of quality cheeses (350g)",
           sr: "Pene u kremastom sosu pripremljenom od četiri vrste kvalitetnih sireva (350g)",
-          ru: "Пенне в кремовом соусе из четырёх видов качественного сыра (350г)"
+          ru: "Пенне в сливочном соусе из четырёх видов качественного сыра (350г)"
         },
         price: 8.70,
         category: "pasta-and-risotto",
@@ -567,7 +567,7 @@ export const menuData: MenuCategory[] = [
         description: {
           en: "Homemade pasta in a creamy sauce prepared by stewing white onions, sun-dried tomatoes, and mushrooms with the addition of white wine, heavy cream, and parmesan (350g)",
           sr: "Domaća pasta u kremastom sosu pripremljenom dinstanjem bijelog luka, sušene rajčice, pečuraka uz dodatak bijelog vina neutralne pavlake i parmezana (350g)",
-          ru: "Домашняя паста в кремовом соусе из тушёного белого лука, вяленых томатов и грибов с добавлением белого вина, сливок и пармезана (350г)"
+          ru: "Домашняя паста в сливочном соусе из тушёного белого лука, вяленых томатов и грибов с добавлением белого вина, сливок и пармезана (350г)"
         },
         price: 13.00,
         category: "pasta-and-risotto",
@@ -600,7 +600,7 @@ export const menuData: MenuCategory[] = [
         description: {
           en: "Rice in a pink sauce of zucchini, tomatoes, garlic, and wine prepared with top quality shrimps (350g)",
           sr: "Riža u rozom sosu od tikvica, rajčice, bijelog luka i vina spremana sa najkvalitetnijim gamborima (350g)",
-          ru: "Рис в рожевом соусе из кабачков, томатов, чеснока и вина, приготовленный с креветками высшего качества (350г)"
+          ru: "Рис в розовом соусе из кабачков, томатов, чеснока и вина, приготовленный с креветками высшего качества (350г)"
         },
         price: 13.00,
         category: "pasta-and-risotto",
@@ -803,7 +803,7 @@ export const menuData: MenuCategory[] = [
           sr: "Paradajz",
           ru: "Салат из томатов"
         },
-        description: { en: "Fresh tomatoes", sr: "Svjež paradajz", ru: "Свежие помидоры" },
+        description: { en: "Fresh tomatoes", sr: "Svjež paradajz", ru: "Свежие томаты" },
         price: 4.00,
         category: "classic-salads",
         imageUrl: "/placeholder.svg"
@@ -861,7 +861,7 @@ export const menuData: MenuCategory[] = [
         name: {
           en: "Spicy Roasted Pepper",
           sr: "Ljuta paprika pečena",
-          ru: "Острый печёный перець"
+          ru: "Острый печёный перец"
         },
         description: { en: "Grilled spicy pepper", sr: "Pečena ljuta paprika", ru: "Острый перец на гриле" },
         price: 3.00,
@@ -924,7 +924,7 @@ export const menuData: MenuCategory[] = [
         description: {
           en: "Toasted bread with fresh mozzarella and herbs",
           sr: "Tostirani hljeb sa svježom mocarelom i začinskim biljem",
-          ru: "Тосты со свежей моцареллой и зеленью"
+          ru: "Поджаренный хлеб со свежей моцареллой и зеленью"
         },
         price: 5.00,
         category: "appetizers",
@@ -967,7 +967,7 @@ export const menuData: MenuCategory[] = [
         name: {
           en: "Platter for Two",
           sr: "Трпеза pjat za dvije osobe",
-          ru: "Ассорти на двоих"
+          ru: "Ассорти «Трпеза» на двоих"
         },
         description: {
           en: "A rich selection of local delicacies for two people",
@@ -1132,7 +1132,7 @@ export const menuData: MenuCategory[] = [
         description: {
           en: "Tomato sauce, cheese, oregano, basil",
           sr: "Pelat, sir, origano, bosiljak",
-          ru: "Томатный соус, сыр, орегано, базилик"
+          ru: "Томатный соус, сыр, грибы, орегано"
         },
         price: 7.50,
         category: "pizza",
@@ -1296,7 +1296,7 @@ export const menuData: MenuCategory[] = [
       {
         id: "desserts-04",
         name: { en: "Pancake Homemade Jam", sr: "Palačinke Domaći džem", ru: "Блинчики з домашнім джемом" },
-        description: { en: "Pancakes with homemade jam", sr: "Palačinke sa domaćim džemom", ru: "Блинчики с домашним вареньем" },
+        description: { en: "Pancakes with homemade jam", sr: "Palačinke sa domaćim džemom", ru: "Блинчики с домашним джемом" },
         price: 4.00,
         category: "desserts",
         imageUrl: "/placeholder.svg"
@@ -1336,7 +1336,7 @@ export const menuData: MenuCategory[] = [
           ru: "Классический насыщенный и крепкий эспрессо" 
         },
         price: 1.50,
-        category: "kafe",
+        category: "coffee",
         imageUrl: "/placeholder.svg"
       },
       {
@@ -1360,7 +1360,7 @@ export const menuData: MenuCategory[] = [
           ru: "Эспрессо с добавлением теплого молока" 
         },
         price: 2.00,
-        category: "kafe",
+        category: "coffee",
         imageUrl: "/placeholder.svg"
       },
       {
@@ -1372,7 +1372,7 @@ export const menuData: MenuCategory[] = [
           ru: "Эспрессо с горячим молоком и пышной пеной" 
         },
         price: 2.20,
-        category: "kafe",
+        category: "coffee",
         imageUrl: "/placeholder.svg"
       },
       {
@@ -1384,7 +1384,7 @@ export const menuData: MenuCategory[] = [
           ru: "Мягкий кофе с большим количеством молока и легкой пеной" 
         },
         price: 3.00,
-        category: "kafe",
+        category: "coffee",
         imageUrl: "/placeholder.svg"
       },
       {
@@ -1396,7 +1396,7 @@ export const menuData: MenuCategory[] = [
           ru: "Классический растворимый кофе с молоком" 
         },
         price: 2.50,
-        category: "kafe",
+        category: "coffee",
         imageUrl: "/placeholder.svg"
       },
       {
@@ -1408,7 +1408,7 @@ export const menuData: MenuCategory[] = [
           ru: "Традиционный крепкий черный кофе по-турецки" 
         },
         price: 1.50,
-        category: "kafe",
+        category: "coffee",
         imageUrl: "/placeholder.svg"
       }
     ]
@@ -1610,7 +1610,7 @@ export const menuData: MenuCategory[] = [
         },
         description: { 
           en: "Ramazzotti Limoncello, prosecco, soda water, fresh lemon slice", 
-          sr: "Ramazzotti Limoncello, prosecco, kiselica, kriška svježeg limuna", 
+          sr: "Ramazzotti Limoncello, prosecco, soda voda, kriška svježeg limuna", 
           ru: "Ramazzotti Limoncello, просекко, газированная вода, долька свежего лимона" 
         },
         price: 9.00,
@@ -1622,7 +1622,7 @@ export const menuData: MenuCategory[] = [
         name: { en: "Aperol Spritz", sr: "Aperol Spritz", ru: "Апероль Шприц" },
         description: { 
           en: "Aperol, prosecco, soda water, fresh orange slice", 
-          sr: "Aperol, prosecco, kiselica, kriška svježe pomorandže", 
+          sr: "Aperol, prosecco, soda voda, kriška svježe pomorandže", 
           ru: "Апероль, просекко, газированная вода, долька свежего апельсина" 
         },
         price: 9.00,
